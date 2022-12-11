@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
             //confirmButtonColor: "green"
           }).then((data) => {
             if(data.isConfirmed){
-              this.router.navigate(['estudiante']);
+              this.router.navigate(['estudiante/welcome']);
               //location.pathname = '/estudiante';
             }
           })

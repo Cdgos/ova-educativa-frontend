@@ -1333,6 +1333,10 @@ select {
   background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
 }
 
+.bg-red-modedark {
+  background-color: rgba(211, 39, 38);
+}
+
 .bg-red-800 {
   --tw-bg-opacity: 1;
   background-color: rgba(153, 27, 27, var(--tw-bg-opacity));

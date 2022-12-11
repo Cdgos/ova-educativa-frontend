@@ -1,0 +1,41 @@
+
+    <nz-layout class="layout">
+  
+      <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" [nzTrigger]="null">
+        <app-sidebar></app-sidebar>
+      </nz-sider>
+  
+      <nz-layout class="navbar">
+        <nz-header class="flex items-center justify-between">
+                <span
+                class="trigger"
+                nz-icon
+                [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'"
+                (click)="isCollapsed = !isCollapsed"
+              ></span>
+      
+              <div style="margin-right: 40px;">
+                <app-user-dropdown></app-user-dropdown>
+              </div>
+  
+        </nz-header>
+
+        <nz-content>
+          <div class="inner-content">
+            <router-outlet></router-outlet>
+          </div>
+        </nz-content>
+  
+        <!-- <div class="container">
+          <div>
+
+              <router-outlet></router-outlet>
+
+            </div>
+        </div> -->
+  
+      </nz-layout>
+    </nz-layout>
+
+  
+  

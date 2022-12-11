@@ -1,0 +1,97 @@
+<section class="quiz__section flex justify-center mt-5">
+    <div class="container">
+        <div class="card">
+            <div class="flex items-center justify-between p-3">
+                <div class="image">
+                    <img src="../../../assets/img/logo_sistemasvertical.jpg" width="100" alt="logo">
+                </div>
+                <div class="quiz-header text-center">
+                    <h4 class="text-red-700 text-2xl font-bold mb-2">Tema # - Nombre del tema</h4>
+                    <span class="font-semibold text-xl">Bienvenido {{nombreUsuario.nombre}}</span>
+                </div>
+            </div>
+
+            <ng-container *ngIf="!isQuizCompleted">
+                <div class="flex justify-around py-3 ">
+                    <div class="score">
+                        <h5 class="text-lg text-blueGray-800">Nota: {{points}}</h5>
+                    </div>
+                    <div class="question-remain">
+                        <span class="text-lg text-blueGray-800">Pregunta {{currentQuestion+1}} de {{questionList.length}}</span>
+                    </div>
+                    <div class="timer">
+                        <h5 class="text-lg text-blueGray-800">{{counter}} segundos ⏱</h5>
+                    </div>
+                </div>
+                <div class="progress mb-3">
+                    <nz-progress [nzPercent]="progress"></nz-progress>
+                </div>
+                <div class="question mb-3">
+                    <div class="card bg-blueGray-800">
+                        <h3 class="text-lg text-white">Pregunta {{currentQuestion+1}}: {{questionList[currentQuestion]?.questionText}}</h3>
+                    </div>
+                </div>
+                <div class="options">
+                    <ol *ngFor="let option of questionList[currentQuestion]?.options" class="mb-3">
+                        <li (click)="answer(currentQuestion+1,option)">
+                            <div appChangeBg [isCorrect]="option.correct" class="card" >
+                                {{option.text}}
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="flex justify-end">
+                    <!-- <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true"></i></button> -->
+                    <!-- <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh text-primary fa-3x" aria-hidden="true"></i></button> -->
+                    <button [disabled]="currentQuestion===8" nz-button nzType="primary" nzDanger (click)="nextQuestion()" class="flex items-center">
+                        Siguiente
+                        <span nz-icon nzType="right-circle" nzTheme="outline"></span>
+                    </button>
+                </div>
+            </ng-container>
+    
+            <ng-container *ngIf="isQuizCompleted">
+
+                <div class=" text-center text-blueGray-800 mb-3">
+                    <hr class="mb-6">
+                    <div class="mt-2">
+                        <h3 class="uppercase font-bold text-2xl text-center text-blueGray-800 mt-2 mb-4">
+                            Fin de la actividad
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="flex justify-between" class="text-base text-center text-blueGray-800 mx-4 mb-8">
+                    <table class="mb-8">
+                        <thead class="bg-red-700 text-center">
+                            <tr class="bg-red-700 text-white">
+                                <th class="bg-red-700 text-white">Total de preguntas</th>
+                                <th class="bg-red-700 text-white">Total de preguntas correctas</th>
+                                <th class="bg-red-700 text-white">Total de preguntas incorrectas</th>
+                                <th class="bg-red-700 text-white">Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>{{questionList.length}}</td>
+                                <td>{{correctAnswer}}</td>
+                                <td>{{inCorrectAnswer}}</td>
+                                <td class="font-bold">{{points}}</td>
+                            </tr>
+                        </tbody>
+                      </table>
+                </div>
+
+                <div class="flex justify-center mb-6">
+                    <button nz-button nzType="primary" nzDanger>
+                        Finalizar
+                </button>
+                </div>
+            </ng-container>
+
+
+        </div>
+    </div>
+</section>
+
+

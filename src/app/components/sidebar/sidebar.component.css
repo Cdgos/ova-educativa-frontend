@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.ant-layout-sider-children{
+    --tw-bg-opacity: 1;
+    background-color: rgba(185, 28, 28, var(--tw-bg-opacity)) !important;
+  }
+
+.bg-red-uno {
+  background-color: #8b0006;
+}
+
+.bg-red-dos{
+  background-color: #990b08;
+}
+
+.border{
+  border: 1px solid #990b08;
+}
+
+.bg-red-tres {
+  background-color: #f4f4f4;
+}
+
+.text-white{
+  color: white;
+}
+
+

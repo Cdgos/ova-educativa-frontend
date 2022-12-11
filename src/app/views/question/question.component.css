@@ -1,0 +1,40 @@
+h3,
+h4, 
+h5, 
+span{
+    font-family: "Nunito",sans-serif;
+}
+
+.card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+}
+
+.options{
+    font-family: "Heebo",sans-serif;
+}
+
+/* Tabla */
+table {
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th {
+    /* background-color: #d6d6d6; */
+    height: 35px;
+    border-bottom: 1px solid rgb(210, 220, 250);
+    padding: 8px;
+  }
+  
+  td {
+    color: rgba(100, 100, 100, 60);
+    height: 40px;
+    border: 1px solid rgba(240, 240, 240, 10);
+  }
