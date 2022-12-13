@@ -1,12 +1,62 @@
 <div *ngIf="id == 1">
 
-    tema1 works!
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h1 class="text-center uppercase text-2xl font-bold text-blueGray-700">Introducción a la informatica educativa y sus generalidades</h1>
+
+            <picture class="flex justify-center my-6">
+                <img src="../../../assets/img/tema1_1.png" alt="Informatica educativa" width="400" height="200">
+            </picture>
+
+            <p class="text-lg text-justify mb-6">
+                Es una disciplina que estudia el uso, efectos y consecuencias de las tecnologías de la información en el proceso educativo. La rama de las ciencias de la educación que se encarga del estudio y desarrollo de las aplicaciones de la informática en el proceso docente-educativo” Abarca el estudio, diseño e implementación de soluciones que incorporan Tecnologías de Información y Comunicación (TIC) a los procesos educacionales, en distintos ámbitos: la gestión y administración de los centros educacionales; la gestión curricular; el proceso de enseñanza-aprendizaje a nivel de aula; y la evaluación de aprendizajes”.
+
+                <br><br>
+
+                Podemos definir entonces la informática educativa como la disciplina que integra la educación y la informática para enriquecer el proceso de enseñanza- aprendizaje, teniendo al computador como herramienta mediadora para el aprendizaje, fundamentada en las teorías educativas. Debe orientarse en gran medida a los aspectos pedagógicos del empleo del computador y no sólo al manejo de las herramientas informáticas, como se da en el contexto de la realidad actual.
+            </p>
+
+            <p class="text-lg text-justify mt-6">
+                Tomado de: <cite>Dayalis Vargas Sep 07, 2009</cite> a través de <a href="http://www.slideshare.net/dayalis/tema-1informatica-educativa"> http://www.slideshare.net/dayalis/tema-1informatica-educativa</a>
+            </p>
+        </article>
+    </section>
+
+    <section nz-row class="px-8 mt-8">
+        <article nz-col nzSpan="24">
+            <h2 class="uppercase text-2xl font-bold text-blueGray-700">Generalidades</h2>
+
+            <ul class="text-lg text-justify mt-3 mb-6 px-8">
+                <li>1.- Intenta acercar al aprendizaje al conocimiento y al manejo de herramientas tecnológicas modernas como el computador.</li>
+                <li>2.- Se pueden establecer comunicaciones entre el computador y el usuario para la realización de un objetivo.</li>
+                <li>3.- Es un campo que emerge de la ínter disciplina que se da entre la informática y la educación.</li>
+            </ul>
+
+        </article>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+        <button routerLink='/estudiante/welcome' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Inicio
+          </button>
+          <button routerLink='/estudiante/tema/2' nz-button nzType="primary" nzDanger>
+            Tema 2
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
 
 </div>
 
 <div *ngIf="id == 2">
     <!-- Introducción -->
-    <h2 class="text-center uppercase text-3xl font-bold">Introduccion</h2>
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Software Educativo</h2>
+
+        </article>
+    </section>
 
     <!-- Question -->
     <div id="evaluacion2">
@@ -14,6 +64,18 @@
         nz-button nzType="primary">
             Iniciar Evaluación
         </button>
+    </div>
+
+    <!-- Navegacion entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+        <button routerLink='/estudiante/tema/1' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Tema 1
+          </button>
+          <button routerLink='/estudiante/subtema/21' nz-button nzType="primary" nzDanger>
+            Subtema 2.1
+            <span nz-icon nzType="right"></span>
+          </button>
     </div>
     
 </div>

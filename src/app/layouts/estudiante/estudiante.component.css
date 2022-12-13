@@ -6,7 +6,6 @@
   min-height: 100vh;
 }
 
-
 .trigger {
   font-size: 18px;
   line-height: 64px;
@@ -50,6 +49,10 @@ nz-content {
 .inner-content {
   padding: 24px;
   background: #fff;
+}
+
+nz-footer {
+  text-align: center;
 }
 
 .ant-layout-sider {
