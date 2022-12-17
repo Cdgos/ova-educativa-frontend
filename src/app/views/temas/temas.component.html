@@ -1,8 +1,9 @@
+<!-- TEMA 1: INTRO. INFORMATICA EDUCATIVA -->
 <div *ngIf="id == 1">
 
     <section nz-row class="px-8 mt-4">
         <article nz-col nzSpan="24">
-            <h1 class="text-center uppercase text-2xl font-bold text-blueGray-700">Introducción a la informatica educativa y sus generalidades</h1>
+            <h1 class="text-center uppercase text-2xl font-bold text-blueGray-700">1. Introducción a la informatica educativa y sus generalidades</h1>
 
             <picture class="flex justify-center my-6">
                 <img src="../../../assets/img/tema1_1.png" alt="Informatica educativa" width="400" height="200">
@@ -35,8 +36,84 @@
         </article>
     </section>
 
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Informacion adicional</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Documento relacionado</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Puede ampliar sus conocimientos sobre la Informática Educativa dando clic en el botón "Ver más". Allí encontrará más conceptos sobre la Informática Educativa por diversos autores, los objetivos y más ventajas sobre esta asignatura.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://informaticaeducativa4.wordpress.com/informacion/que-es-la-informatica-educativa/" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="http://4.bp.blogspot.com/_DHo4FoOLV5I/TUCciM_hFLI/AAAAAAAAACA/oqDtt6oyJIY/s1600/informatica-educativa1.jpg" class="card__img">
+              </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Video</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Puede ampliar sus conocimientos sobre la Informática Educativa dando clic en el botón "Reproducir". Allí encontrará un video extensivo y explicativo sobre la Informática Educativa orientado a sus paradigmas, historia, etc.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=AFp84wjgO1Y" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        REPRODUCIR
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/tema1_2.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+            <!-- <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase">
+                      <h2 class="card__title">Video</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Puede ampliar sus conocimientos sobre la Informática Educativa dando clic en el botón "Reproducir". Allí encontrará un video extensivo y explicativo sobre la Informática Educativa orientado a sus paradigmas, historia, etc.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=AFp84wjgO1Y" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        REPRODUCIR
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/tema1_2.png" class="card__img"/>
+                </ng-template>
+            </div> -->
+
+        </div>
+    </section>
+
     <!-- Navegación entre temas -->
-    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
         <button routerLink='/estudiante/welcome' nz-button nzType="primary" nzDanger>
             <span nz-icon nzType="left"></span>
             Inicio
@@ -49,22 +126,114 @@
 
 </div>
 
+<!-- TEMA 2: SOFTW. EDUCATIVO -->
 <div *ngIf="id == 2">
     <!-- Introducción -->
     <section nz-row class="px-8 mt-4">
         <article nz-col nzSpan="24">
-            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Software Educativo</h2>
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">2. Software Educativo</h2>
+
+            <picture class="flex justify-center my-6">
+                <img src="../../../assets/img/tema2_1.png" alt="Informatica educativa" width="400" height="200">
+            </picture>
+
+            <h3 class="uppercase text-2xl font-bold text-blueGray-700">Introducción</h3>
+
+            <p class="text-lg text-justify mt-3">
+                El software educativo es una herramienta o programa informático que ayuda a integrar las diferentes áreas de gestión dentro de un centro educativo: el área de facturación, financiera, contable y administrativa, el área de comunicación y atención al cliente, la organización escolar del centro, los sistemas de calificación.
+                <br><br>
+                Es decir, se trata de un software ideado para unificar las diferentes áreas de gestión del centro para, de esta forma, poder hacer una gestión más eficaz y coordinada de todos los departamentos necesarios para el buen funcionamiento del centro escolar al igual se utilizará para la computadora.
+            </p>
+        </article>
+    </section>
+
+    <!-- Indicaciones -->
+    <section nz-row class="px-8 mt-8">
+        <article nz-col nzSpan="24">
+            <h3 class=" uppercase text-2xl font-bold text-blueGray-700">Indicaciones</h3>
+
+            <ul class="text-lg text-justify mt-3 mb-6 px-8">
+                <li>1. Realiza la lectura de todos los subtemas de esta unidad y amplia tus conocimientos con los recursos adicionales que te proporcionamos.</li>
+                <li>2. Realiza la actividades de retroalimentación que encontrarás por cada subtema, no son calificables, están pensadas para afianzar tus conocimientos y prepararte para la evaluación del tema.</li>
+                <li>3. Realiza la evaluación del tema, la cual es calificable e influye en tu progreso y en la nota final. (Recomendable hacer los 2 pasos anteriores antes de presentarla).</li>
+            </ul>
 
         </article>
     </section>
 
-    <!-- Question -->
-    <div id="evaluacion2">
-        <button routerLink='/question/1'
-        nz-button nzType="primary">
-            Iniciar Evaluación
-        </button>
-    </div>
+    <!-- CARDS, INICIO LECTURA SUBTEMAS Y EVALUACION -->
+    <section class="cards mt-2">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">¿Qué deseas hacer?</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card>
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <span nz-icon nzType="read" nzTheme="outline"></span>
+                    <h2 class="card__title p-2">Subtemas</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal mt-4 p-2">
+                    <p class="card__content">
+                        Inicia el recorrido de las lecturas de los subtemas del Software Educativo. Puedes acceder a este material en el momento y cuantas veces desees estudiar algún subtema. Recuerda revisar la información adicional que te proporcionamos y realizar las actividades de retroalimentación para prepararte a presentar la evaluación del tema y por último realizar la evaluación final de todos los temas.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a routerLink='/estudiante/subtema/21' class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4" id="evaluacion2">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Evaluación</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Cantidad de preguntas: </span> 10
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> 5.0 | (0.5 por pregunta).
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> 20 minutos
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> 1
+                            </li>
+
+                        </ul>
+                        <div class="text-lg text-justify mt-2 bg-red-300 p-2" style="border: 1px solid; border-radius: 2px;">
+                            <span nz-icon nzType="alert" nzTheme="outline" class="p-1"></span>
+                            <span class="font-bold px-1">Requisitos: </span> Haber estudiado cada uno de los subtemas correspondientes al tema.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a routerLink='/question/2' class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
 
     <!-- Navegacion entre temas -->
     <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
@@ -80,14 +249,375 @@
     
 </div>
 
+<!-- TEMA 3: GENERALIDADES DE LA EDUCACION VIRTUAL -->
 <div *ngIf="id == 3">
-    tema3 works! eeeeeeeee
+    <!-- Introducción -->
+    <section nz-row class="px-8 mt-4">
+            <article nz-col nzSpan="24">
+                <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">3. Generalidades de la educación virtual</h2>
+    
+                <picture class="flex justify-center my-6">
+                    <img src="../../../assets/img/tema3_1.png" alt="Informatica educativa" width="400" height="200">
+                </picture>
+    
+                <h3 class="uppercase text-2xl font-bold text-blueGray-700">Introducción</h3>
+    
+                <p class="text-lg text-justify mt-3">
+                    También conocida como enseñanza en línea, hace referencia al desarrollo de la dinámica de enseñanza - aprendizaje que  es realizado de forma virtual. Es decir, existe un formato educativo en donde los docentes y estudiantes pueden interactuar diferente al  espacio presencial.
+                    <br><br>
+                    Se apoya en las TIC's (Tecnologías de la Información y la Comunicación), ya que hace uso de las herramientas que ofrece internet y nuevas tecnologías para proporcionar ambientes educativos adecuados y de alta calidad.
+                </p>
+            </article>
+    </section>
+    
+    <!-- Indicaciones -->
+    <section nz-row class="px-8 mt-8">
+            <article nz-col nzSpan="24">
+                <h3 class=" uppercase text-2xl font-bold text-blueGray-700">Indicaciones</h3>
+    
+                <ul class="text-lg text-justify mt-3 mb-6 px-8">
+                    <li>1. Realiza la lectura de todos los subtemas de esta unidad y amplia tus conocimientos con los recursos adicionales que te proporcionamos.</li>
+                    <li>2. Realiza la actividades de retroalimentación que encontrarás por cada subtema, no son calificables, están pensadas para afianzar tus conocimientos y prepararte para la evaluación del tema.</li>
+                    <li>3. Realiza la evaluación del tema, la cual es calificable e influye en tu progreso y en la nota final. (Recomendable hacer los 2 pasos anteriores antes de presentarla).</li>
+                </ul>
+    
+            </article>
+    </section>
+    
+    <!-- CARDS, INICIO LECTURA SUBTEMAS Y EVALUACION -->
+    <section class="cards mt-2">
+            <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">¿Qué deseas hacer?</h2>
+            <div nz-row [nzGutter]="16" class="flex justify-center">
+                <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                  <nz-card>
+                    <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                        <span nz-icon nzType="read" nzTheme="outline"></span>
+                        <h2 class="card__title p-2">Subtemas</h2>
+                    </div>
+                    <div class="card__body text-base text-justify font-normal mt-4 p-2">
+                        <p class="card__content">
+                            Inicia el recorrido de las lecturas de los subtemas de la Educación Virtual. Puedes acceder a este material en el momento y cuantas veces desees estudiar algún subtema. Recuerda revisar la información adicional que te proporcionamos y realizar las actividades de retroalimentación para prepararte a presentar la evaluación del tema y por último realizar la evaluación final de todos los temas.
+                        </p>
+                    </div>
+                    <div class="card__footer flex justify-center mt-3">
+                        <a routerLink='/estudiante/subtema/31' class="p-2"
+                        nz-button nzType="primary" nzSize="large" class="flex items-center">
+                            INICIAR
+                            <span nz-icon nzType="smile"></span>
+                        </a>
+                    </div>
+                  </nz-card>
+                </div>
+    
+                <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4" id="evaluacion3">
+                    <nz-card>
+                      <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                          <h2 class="card__title p-2">Evaluación</h2>
+                          <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                      </div>
+                      <div class="card__body text-base text-justify font-normal p-2">
+                          <div class="card__content">
+                            <ul class="text-lg text-justify mt-2">
+                                <li class="flex items-center">
+                                    <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                    <span class="font-semibold px-1">Cantidad de preguntas: </span> 10
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                    <span class="font-semibold px-1">Calificación: </span> 5.0 | (0.5 por pregunta).
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                    <span class="font-semibold px-1">Duración: </span> 20 minutos
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                    <span class="font-semibold px-1">Intentos permitidos: </span> 1
+                                </li>
+    
+                            </ul>
+                            <div class="text-lg text-justify mt-2 bg-red-300 p-2" style="border: 1px solid; border-radius: 2px;">
+                                <span nz-icon nzType="alert" nzTheme="outline" class="p-1"></span>
+                                <span class="font-bold px-1">Requisitos: </span> Haber estudiado cada uno de los subtemas correspondientes al tema.
+                            </div>
+                          </div>
+                      </div>
+                      <div class="card__footer flex justify-center mt-3">
+                        <a routerLink='/question/3' class="p-2"
+                        nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                            INICIAR
+                            <span nz-icon nzType="star"></span>
+                        </a>
+                      </div>
+                    </nz-card>
+                </div>
+    
+            </div>
+    </section>
+    
+    <!-- Navegacion entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+            <button routerLink='/estudiante/tema/2' nz-button nzType="primary" nzDanger>
+                <span nz-icon nzType="left"></span>
+                Tema 2
+              </button>
+              <button routerLink='/estudiante/subtema/31' nz-button nzType="primary" nzDanger>
+                Subtema 3.1
+                <span nz-icon nzType="right"></span>
+              </button>
+    </div>
 </div>
 
+<!-- TEMA 4: MEDEOVA -->
 <div *ngIf="id == 4">
-    tema4 works! fff
+    <!-- Introducción -->
+    <section nz-row class="px-8 mt-4">
+                <article nz-col nzSpan="24">
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4. Metodología para el desarrollo de objetos virtuales de aprendizaje</h2>
+        
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/tema4_1.png" alt="Informatica educativa" width="400" height="200">
+                    </picture>
+        
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">Introducción</h3>
+        
+                    <p class="text-lg text-justify mt-3">
+                        La Metodología de desarrollo de objetos virtuales de aprendizaje, se basa en los lineamientos Nacionales del
+                        Ministerio de Educación Nacional y en el ciclo de vida de varias metodologías de desarrollo según la ingeniería de
+                        software y el aseguramiento de calidad.
+                        <br><br>
+                        Para iniciar con la explicación de la metodología en la siguiente figura se describe el ciclo de vida para el
+                        aseguramiento de calidad del producto OVA.
+                    </p>
+
+                    <picture class="flex justify-center my-4">
+                        <img src="../../../assets/img/tema4_2.png" alt="Informatica educativa" width="400" height="200">
+                    </picture>
+                </article>
+    </section>
+        
+    <!-- Indicaciones -->
+    <section nz-row class="px-8 mt-8">
+                <article nz-col nzSpan="24">
+                    <h3 class=" uppercase text-2xl font-bold text-blueGray-700">Indicaciones</h3>
+        
+                    <ul class="text-lg text-justify mt-3 mb-6 px-8">
+                        <li>1. Realiza la lectura de todos los subtemas de esta unidad y amplia tus conocimientos con los recursos adicionales que te proporcionamos.</li>
+                        <li>2. Realiza la actividades de retroalimentación que encontrarás por cada subtema, no son calificables, están pensadas para afianzar tus conocimientos y prepararte para la evaluación del tema.</li>
+                        <li>3. Realiza la evaluación del tema, la cual es calificable e influye en tu progreso y en la nota final. (Recomendable hacer los 2 pasos anteriores antes de presentarla).</li>
+                    </ul>
+        
+                </article>
+    </section>
+        
+    <!-- CARDS, INICIO LECTURA SUBTEMAS Y EVALUACION -->
+    <section class="cards mt-2">
+                <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">¿Qué deseas hacer?</h2>
+                <div nz-row [nzGutter]="16" class="flex justify-center">
+                    <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                      <nz-card>
+                        <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                            <span nz-icon nzType="read" nzTheme="outline"></span>
+                            <h2 class="card__title p-2">Subtemas</h2>
+                        </div>
+                        <div class="card__body text-base text-justify font-normal mt-4 p-2">
+                            <p class="card__content">
+                                Inicia el recorrido de las lecturas de los subtemas de la MEDEOVA. Puedes acceder a este material en el momento y cuantas veces desees estudiar algún subtema. Recuerda revisar la información adicional que te proporcionamos y realizar las actividades de retroalimentación para prepararte a presentar la evaluación del tema y por último realizar la evaluación final de todos los temas.
+                            </p>
+                        </div>
+                        <div class="card__footer flex justify-center mt-3">
+                            <a routerLink='/estudiante/subtema/41' class="p-2"
+                            nz-button nzType="primary" nzSize="large" class="flex items-center">
+                                INICIAR
+                                <span nz-icon nzType="smile"></span>
+                            </a>
+                        </div>
+                      </nz-card>
+                    </div>
+        
+                    <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4" id="evaluacion4">
+                        <nz-card>
+                          <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                              <h2 class="card__title p-2">Evaluación</h2>
+                              <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                          </div>
+                          <div class="card__body text-base text-justify font-normal p-2">
+                              <div class="card__content">
+                                <ul class="text-lg text-justify mt-2">
+                                    <li class="flex items-center">
+                                        <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                        <span class="font-semibold px-1">Cantidad de preguntas: </span> 10
+                                    </li>
+        
+                                    <li class="flex items-center">
+                                        <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                        <span class="font-semibold px-1">Calificación: </span> 5.0 | (0.5 por pregunta).
+                                    </li>
+        
+                                    <li class="flex items-center">
+                                        <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                        <span class="font-semibold px-1">Duración: </span> 20 minutos
+                                    </li>
+        
+                                    <li class="flex items-center">
+                                        <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                        <span class="font-semibold px-1">Intentos permitidos: </span> 1
+                                    </li>
+        
+                                </ul>
+                                <div class="text-lg text-justify mt-2 bg-red-300 p-2" style="border: 1px solid; border-radius: 2px;">
+                                    <span nz-icon nzType="alert" nzTheme="outline" class="p-1"></span>
+                                    <span class="font-bold px-1">Requisitos: </span> Haber estudiado cada uno de los subtemas correspondientes al tema.
+                                </div>
+                              </div>
+                          </div>
+                          <div class="card__footer flex justify-center mt-3">
+                            <a routerLink='/question/4' class="p-2"
+                            nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                                INICIAR
+                                <span nz-icon nzType="star"></span>
+                            </a>
+                          </div>
+                        </nz-card>
+                    </div>
+        
+                </div>
+    </section>
+        
+    <!-- Navegacion entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+                <button routerLink='/estudiante/tema/3' nz-button nzType="primary" nzDanger>
+                    <span nz-icon nzType="left"></span>
+                    Tema 3
+                  </button>
+                  <button routerLink='/estudiante/subtema/41' nz-button nzType="primary" nzDanger>
+                    Subtema 4.1
+                    <span nz-icon nzType="right"></span>
+                  </button>
+    </div>
 </div>
 
+<!-- TEMA 5: HERRAMIENTAS DESARROLLO OVAS -->
 <div *ngIf="id == 5">
-    tema5 works! qqq
+    <!-- Introducción -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">5. Metodología para el desarrollo de objetos virtuales de aprendizaje</h2>
+
+            <picture class="flex justify-center my-6">
+                <img src="../../../assets/img/tema5_1.png" alt="Informatica educativa" width="400" height="200">
+            </picture>
+
+            <h3 class="uppercase text-2xl font-bold text-blueGray-700">Introducción</h3>
+
+            <p class="text-lg text-justify mt-3">
+                Al desarrollar y utilizar un OVA, los estudiantes pueden aprender a su propio ritmo y de una forma independiente. De igual forma, los tutores deben saber utilizar de manera efectiva estos recursos, para lo cual deben contemplar la pedagogía, el contenido, el soporte tecnológico y el objetivo de su creación.
+                <br><br>
+                El OVA no contiene el contenido de una unidad de estudio. Más bien, es un contenido flexible e interactivo que es adaptado a distintos programas didácticos, incorporándose a multiplataformas y distintos niveles de instrucción. Algunas herramientas para desarrollar un OVA son:
+            </p>
+        </article>
+    </section>
+
+    <!-- Indicaciones -->
+    <section nz-row class="px-8 mt-8">
+        <article nz-col nzSpan="24">
+            <h3 class=" uppercase text-2xl font-bold text-blueGray-700">Indicaciones</h3>
+
+            <ul class="text-lg text-justify mt-3 mb-6 px-8">
+                <li>1. Realiza la lectura de todos los subtemas de esta unidad y amplia tus conocimientos con los recursos adicionales que te proporcionamos.</li>
+                <li>2. Realiza la actividades de retroalimentación que encontrarás por cada subtema, no son calificables, están pensadas para afianzar tus conocimientos y prepararte para la evaluación del tema.</li>
+                <li>3. Realiza la evaluación del tema, la cual es calificable e influye en tu progreso y en la nota final. (Recomendable hacer los 2 pasos anteriores antes de presentarla).</li>
+            </ul>
+
+        </article>
+    </section>
+
+    <!-- CARDS, INICIO LECTURA SUBTEMAS Y EVALUACION -->
+    <section class="cards mt-2">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">¿Qué deseas hacer?</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card>
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <span nz-icon nzType="read" nzTheme="outline"></span>
+                    <h2 class="card__title p-2">Subtemas</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal mt-4 p-2">
+                    <p class="card__content">
+                        Inicia el recorrido de las lecturas de los subtemas de las herramientas para desarrollar OVAS. Puedes acceder a este material en el momento y cuantas veces desees estudiar algún subtema. Recuerda revisar la información adicional que te proporcionamos y realizar las actividades de retroalimentación para prepararte a presentar la evaluación del tema y por último realizar la evaluación final de todos los temas.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a routerLink='/estudiante/subtema/51' class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4" id="evaluacion5">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Evaluación</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Cantidad de preguntas: </span> 10
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> 5.0 | (0.5 por pregunta).
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> 20 minutos
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> 1
+                            </li>
+
+                        </ul>
+                        <div class="text-lg text-justify mt-2 bg-red-300 p-2" style="border: 1px solid; border-radius: 2px;">
+                            <span nz-icon nzType="alert" nzTheme="outline" class="p-1"></span>
+                            <span class="font-bold px-1">Requisitos: </span> Haber estudiado cada uno de los subtemas correspondientes al tema.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a routerLink='/question/5' class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegacion entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 my-4 flex justify-between">
+        <button routerLink='/estudiante/tema/4' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Tema 4
+          </button>
+          <button routerLink='/estudiante/subtema/51' nz-button nzType="primary" nzDanger>
+            Subtema 5.1
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
 </div>

@@ -30,6 +30,7 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzProgressModule } from 'ng-zorro-antd/progress';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzTableModule } from 'ng-zorro-antd/table';
+import { NzCardModule } from 'ng-zorro-antd/card';
 
 import { UserDropdownComponent } from './components/dropdown/user-dropdown/user-dropdown.component';
 import { WelcomeComponent } from './views/welcome/welcome.component';
@@ -74,7 +75,8 @@ registerLocaleData(es);
     NzGridModule,
     NzProgressModule,
     NzButtonModule,
-    NzTableModule
+    NzTableModule,
+    NzCardModule
   ],
   providers: [
     { provide: NZ_I18N, useValue: es_ES }

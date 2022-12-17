@@ -5,16 +5,29 @@ span{
     font-family: "Nunito",sans-serif;
 }
 
+.quiz__section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid #afafaf;
-    border-radius: 5px;
+  width: 700px;
+  padding: 18px;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
+}
+
+.card__two {
+  width: 100%;
+  padding: 18px;
+  border: 1px solid #afafaf;
+  border-radius: 5px;
 }
 
 .options{
-    font-family: "Heebo",sans-serif;
+  font-family: "Heebo",sans-serif;
 }
 
 /* Tabla */

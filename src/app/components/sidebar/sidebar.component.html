@@ -1,14 +1,16 @@
 <div class="navbar__header" style="  height: 32px;
 background: rgba(255, 255, 255, 0.2);
-margin: 16px;">
+margin: 16px;"> 
+  <h2 class="text-center text-2xl text-white font-bold">UFPS</h2>
 </div>
 
 <ul class="bg-red-uno text-white" nz-menu nzMode="inline">
 
     <ul class="text-center uppercase font-bold">
-    <li class="text-white" nz-menu-group nzTitle="Contenido temático"></li>
+    <li class="text-white text-xl font-bold mb-4" nz-menu-group>OVA</li>
     </ul>
     
+    <!-- Ruteo tema 1 -->
     <li class="font-semibold" nz-submenu nzOpen nzTitle="TEMA 1" nzIcon="book">
       <ul class="bg-red-dos text-white border">
         <li nz-menu-item>
@@ -17,6 +19,7 @@ margin: 16px;">
       </ul>
     </li>
 
+    <!-- Ruteo tema 2 -->
     <li class="font-semibold" nz-submenu nzTitle="TEMA 2" nzIcon="book">
       <ul class="bg-red-dos text-white border">
       <li nz-menu-item>
@@ -28,85 +31,207 @@ margin: 16px;">
           <li nz-menu-item>
             <a routerLink='/estudiante/subtema/21'>Contenido</a>
           </li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/21' fragment="actividad21">Actividad</a>
+          </li>
         </ul>
       </li>
       <li nz-submenu nzTitle="Subtema 2.2">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/22'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/22' fragment="actividad22">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 2.3">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/23'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/23' fragment="actividad23">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 2.4">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/24'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/24' fragment="actividad24">Actividad</a>
+          </li>
         </ul>
       </li>
       <li nz-menu-item>
-        <a     
-        routerLink='/estudiante/tema/2/' fragment="evaluacion2" class="text-white">Evaluación</a>
+        <a routerLink='/estudiante/tema/2/' fragment="evaluacion2" class="text-white">Evaluación</a>
       </li>
     </ul>
     </li>
 
+    <!-- Ruteo tema 3 -->
     <li class="font-semibold" nz-submenu nzTitle="TEMA 3" nzIcon="book">
       <ul class="bg-red-dos text-white border">
       <li nz-menu-item>
-        <a routerLink='/estudiante/tema/3' class="text-white">Introducción</a>
+        <a     
+        routerLink='/estudiante/tema/3' class="text-white">Introduccion</a>
       </li>
       <li nz-submenu nzTitle="Subtema 3.1">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/31'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/31' fragment="actividad31">Actividad</a>
+          </li>
         </ul>
       </li>
       <li nz-submenu nzTitle="Subtema 3.2">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/32'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/32' fragment="actividad32">Actividad</a>
+          </li>
         </ul>
       </li>
-      <li nz-menu-item>Evaluación</li>
+      <li nz-submenu nzTitle="Subtema 3.3">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/33'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/33' fragment="actividad33">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 3.4">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/34'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/34' fragment="actividad34">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 3.5">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/35'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/35' fragment="actividad35">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-menu-item>
+        <a routerLink='/estudiante/tema/3/' fragment="evaluacion3" class="text-white">Evaluación</a>
+      </li>
     </ul>
     </li>
 
+    <!-- Ruteo tema 4 -->
     <li class="font-semibold" nz-submenu nzTitle="TEMA 4" nzIcon="book">
       <ul class="bg-red-dos text-white border">
       <li nz-menu-item>
-        <a routerLink='/estudiante/tema/4' class="text-white">Introducción</a>
+        <a     
+        routerLink='/estudiante/tema/4' class="text-white">Introduccion</a>
       </li>
-      <li nz-submenu nzTitle="Subtema 1">
+      <li nz-submenu nzTitle="Subtema 4.1">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/41'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/41' fragment="actividad41">Actividad</a>
+          </li>
         </ul>
       </li>
-      <li nz-submenu nzTitle="Subtema 2">
+      <li nz-submenu nzTitle="Subtema 4.2">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/42'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/42' fragment="actividad42">Actividad</a>
+          </li>
         </ul>
       </li>
-      <li nz-menu-item>Evaluación</li>
+      <li nz-submenu nzTitle="Subtema 4.3">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/43'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/43' fragment="actividad43">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 4.4">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/44'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/44' fragment="actividad44">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Subtema 4.5">
+        <ul>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/45'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/45' fragment="actividad45">Actividad</a>
+          </li>
+        </ul>
+      </li>
+      <li nz-menu-item>
+        <a routerLink='/estudiante/tema/4/' fragment="evaluacion4" class="text-white">Evaluación</a>
+      </li>
     </ul>
     </li>
 
+    <!-- Ruteo tema 5 -->
     <li class="font-semibold" nz-submenu nzTitle="TEMA 5" nzIcon="book">
       <ul class="bg-red-dos text-white border">
       <li nz-menu-item>
-        <a routerLink='/estudiante/tema/5' class="text-white">Introducción</a>
+        <a     
+        routerLink='/estudiante/tema/5' class="text-white">Introduccion</a>
       </li>
-      <li nz-submenu nzTitle="Subtema 1">
+      <li nz-submenu nzTitle="Subtema 5.1">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/51'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/51' fragment="actividad51">Actividad</a>
+          </li>
         </ul>
       </li>
-      <li nz-submenu nzTitle="Subtema 2">
+      <li nz-submenu nzTitle="Subtema 5.2">
         <ul>
-          <li nz-menu-item>Contenido</li>
-          <li nz-menu-item>Actividad</li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/52'>Contenido</a>
+          </li>
+          <li nz-menu-item>
+            <a routerLink='/estudiante/subtema/52' fragment="actividad52">Actividad</a>
+          </li>
         </ul>
       </li>
-      <li nz-menu-item>Evaluación</li>
+      <li nz-menu-item>
+        <a routerLink='/estudiante/tema/5/' fragment="evaluacion5" class="text-white">Evaluación</a>
+      </li>
     </ul>
     </li>
 
+    <!-- Evaluacion final -->
     <li class="font-semibold" nz-menu-item>
     <span nz-icon nzType="file-done"></span>
     <span>Cuestionario final</span>
