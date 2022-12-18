@@ -1,11 +1,809 @@
-<div *ngIf="id == 11">
+<!-- SUBTEMA 2.1.  Software educativo - conceptualización y características -->
+<div *ngIf="id == 21">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">2.1. Definición del software educativo
+            </h2>
 
-    Subtema 1
+            <picture class="flex justify-center my-6">
+                <img src="../../../assets/img/subtema21_1.jpg" alt="Software Educativo" width="400" height="200">
+            </picture>
 
+            <section class="conceptualizacion">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">Conceptualización</h3>
+
+                    <p class="text-lg text-justify mt-3">
+                        Software educativo (programas educativos o programas didácticos) sinónimos
+                        para designar genéricamente los programas para ordenador creados con la
+                        finalidad específica de ser utilizados como medio didáctico, es decir, para facilitar
+                        los procesos de enseñanza y de aprendizaje.
+    
+                        <br><br>
+    
+                        Esta definición engloba todos los programas que han estado elaborados con fin
+                        didáctico, desde los tradicionales programas basados en los modelos conductistas
+                        de la enseñanza, los programas de Enseñanza Asistida por Ordenador (EAO), hasta
+                        los aun programas experimentales de Enseñanza Inteligente Asistida por
+                        Ordenador (EIAO), que, utilizando técnicas propias del campo de los Sistemas Expertos y de la Inteligencia Artificial en general, pretenden imitar la labor tutorial
+                        personalizada que realizan los profesores y presentan modelos de representación
+                        del conocimiento en consonancia con los procesos cognitivos que desarrollan los
+                        alumnos.
+                    </p>
+                </article>
+            </section>
+
+            <section class="flex justify-center mt-6 p-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RBCoVVlR1gs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <section class="caracteristicas mt-8">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">Características esenciales</h3>
+
+                    <p class="text-lg text-justify mt-3">
+                        Los programas educativos pueden tratar las diferentes materias (matemáticas,
+                        idiomas, geografía, dibujo...), de formas muy diversas (a partir de cuestionarios,
+                        facilitando una información estructurada a los alumnos, mediante la simulación de
+                        fenómenos...) y ofrecer un entorno de trabajo más o menos sensible a las
+                        circunstancias de los alumnos y más o menos rico en posibilidades de interacción;
+                        pero todos comparten cinco <span class="font-semibold">características esenciales:</span>
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            1. Son materiales elaborados con una <span class="font-semibold">finalidad didáctica</span>, como se desprende
+                            de la definición.
+                        </li>
+                        <li class="mt-3">
+                            2. <span class="font-semibold">Utilizan el ordenador</span> como soporte en el que los alumnos realizan las actividades que ellos proponen.
+                        </li>
+                        <li class="mt-3">
+                            3. <span class="font-semibold">Son interactivos</span>, contestan inmediatamente las acciones de los estudiantes y permiten un diálogo y un intercambio de informaciones entre el ordenador
+                            y los estudiantes.
+                        </li>
+                        <li class="mt-3">
+                            4. <span class="font-semibold">Individualizan el trabajo</span>de los estudiantes, ya que se adaptan al ritmo de trabajo cada uno y pueden adaptar sus actividades según las actuaciones de los alumnos.
+                        </li>
+                        <li class="mt-3">
+                            5. <span class="font-semibold">Son fáciles de usar.</span> Los conocimientos informáticos necesarios para utilizar la mayoría de estos programas son similares a los conocimientos de electrónica necesarios para usar un vídeo, es decir, son mínimos, aunque cada programa tiene unas reglas de funcionamiento que es necesario conocer.
+                        </li>
+                    </ol>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Documento relacionado</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Puede ampliar sus conocimientos sobre el Software Educativo dando clic en el botón "Ver más". Allí encontrará más información sobre el Software Educativo: definición, ventajas, tipos y ejemplos.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://softwarepara.net/software-educativo/" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Video</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Puede ampliar sus conocimientos sobre el Software Educativo dando clic en el botón "Reproducir". Allí encontrará un video explicativo sobre la definición del Software Educativo, sus tipos y algunos ejemplos.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=d7bcFTspwRo" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        REPRODUCIR
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+            <!-- <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase">
+                      <h2 class="card__title">Video</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Puede ampliar sus conocimientos sobre la Informática Educativa dando clic en el botón "Reproducir". Allí encontrará un video extensivo y explicativo sobre la Informática Educativa orientado a sus paradigmas, historia, etc.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=AFp84wjgO1Y" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        REPRODUCIR
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/tema1_2.png" class="card__img"/>
+                </ng-template>
+            </div> -->
+
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad21">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Selección múltiple y V/F.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad21.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/tema/2' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Tema 2
+          </button>
+          <button routerLink='/estudiante/subtema/22' nz-button nzType="primary" nzDanger>
+            Subtema 2.2
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
 </div>
 
-<div *ngIf="id == 12">
+<!-- SUBTEMA 2.2. ESTRUCTURA BÁSICA DE LOS PROGRAMAS EDUCATIVOS -->
+<div *ngIf="id == 22">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">2.2. ESTRUCTURA BÁSICA DE LOS PROGRAMAS EDUCATIVOS
+            </h2>
 
-    Subtema 2
+            <section class="introduccion mt-8">
+                <article nz-row class="px-8">
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="8" class="flex justify-center p-5">
+                        <picture class="flex justify-center">
+                            <img src="../../../assets/img/subtema22_1.jpg" alt="Software Educativo" width="400" height="200">
+                        </picture>
+                    </div>
 
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="16" class="mt-2 py-2 flex justify-start">
+                        <p class="text-lg text-justify">
+                            La mayoría de los programas didácticos, igual que muchos de los programas
+                            informáticos nacidos sin finalidad educativa, tienen tres módulos principales
+                            claramente definidos: el módulo que gestiona la comunicación con el usuario
+                            (sistema input/output), el módulo que contiene debidamente organizados los
+                            contenidos informativos del programa (bases de datos) y el módulo que gestiona
+                            las actuaciones del ordenador y sus respuestas a las acciones de los usuarios
+                            (motor).
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="estructura mt-8">
+                <article class="estructura__interface">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">2.2.1. El entorno de comunicación o interface</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_2.jpg" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        La interface es el entorno a través del cual los programas establecen el diálogo con
+                        sus usuarios, y es la que posibilita la interactividad característica de estos
+                        materiales. Está integrada por dos sistemas:
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.1.1. El sistema de comunicación programa-usuario, que facilita la transmisión de informaciones al usuario por parte del ordenador, incluye:</span>
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    - Las pantallas a través de las cuales los programas presentan
+                                    información a los usuarios.
+                                </li>
+                                <li class="mt-3">
+                                    - Los informes y las fichas que proporcionen mediante las impresoras.
+                                </li>
+                                <li class="mt-3">
+                                    - El empleo de otros periféricos: altavoces, sintetizadores de voz,robots, módems, convertidores digitales-analógicos...
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.1.2. El sistema de comunicación usuario-programa facilita la transmisión de información del usuario hacia el ordenador, incluye:</span>
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    - El uso del teclado y el ratón, mediante los cuales los usuarios introducen al ordenador un conjunto de órdenes o respuestas que los programas reconocen.
+                                </li>
+                                <li class="mt-3">
+                                    - El empleo de otros periféricos: micrófonos, lectores de fichas,
+                                    teclados conceptuales, pantallas táctiles, lápices ópticos, modems,
+                                    lectores de tarjetas, convertidores analógico-digitales...
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <p class="text-lg text-justify mt-3">
+                        Con la ayuda de las técnicas de la Inteligencia Artificial y del desarrollo de las tecnologías multimedia, se investiga la elaboración de entornos de comunicación cada vez más intuitivos y capaces de proporcionar un diálogo abierto y próximo al
+                        lenguaje natural.
+                    </p>
+                </article>
+
+                <article class="estructura__bd mt-8">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">2.2.2. Las bases de datos</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_3.png" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        Las bases de datos contienen la información específica que cada programa presentará a los alumnos. Pueden estar constituidas por:
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.1. Modelos de comportamiento.</span> Representan la dinámica de unos sistemas. Distinguimos:
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    - Modelos físico-matemáticos, que tienen unas leyes perfectamente
+                                    determinadas por unas ecuaciones.
+                                </li>
+                                <li class="mt-3">
+                                    - Modelos no deterministas, regidos por unas leyes no totalmente
+                                    deterministas, que son representadas por ecuaciones con variables
+                                    aleatorias, por grafos y por tablas de comportamiento.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.2. Datos de tipo texto.</span> Información alfanumérica.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.3. Datos gráficos.</span> Las bases de datos pueden estar constituidas por dibujos, fotografías, secuencias de vídeo, etc
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.4. Sonido.</span> Como los programas que permiten componer música, escuchar determinadas composiciones musicales y visionar sus partituras.
+                        </li>
+                    </ol>
+                </article>
+
+                <article class="estructura__algoritmo mt-8">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">2.2.3. El motor o algoritmo</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_4.png" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        El algoritmo del programa, en función de las acciones de los usuarios, gestiona las secuencias en que se presenta la información de las bases de datos y las actividades que pueden realizar los alumnos. Distinguimos 4 tipos de algoritmo:
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.1. Lineal,</span> cuando la secuencia de las actividades es única.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.2. Ramificados, </span> cuando están predeterminadas posibles secuencias según las respuestas de los alumnos.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.3. Tipo entorno, </span> cuando no hay secuencias predeterminadas para el acceso del usuario a la información principal y a las diferentes actividades. El estudiante elige qué ha de hacer y cuándo lo ha de hacer. Este entorno puede ser:
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Estático,</span> 
+                                    si el usuario sólo puede consultar (y en algunos casos aumentar o disminuir) la información que proporciona el entorno, pero no puede modificar su estructura.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Dinámico,</span> 
+                                    si el usuario, además de consultar la información, también puede modificar el estado de los elementos que configuran el entorno.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Programable,</span> 
+                                    si a partir de una serie de elementos el usuario puede construir diversos entornos.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Instrumental,</span> 
+                                    si ofrece a los usuarios diversos instrumentos para realizar determinados trabajos.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.4. Tipo sistema experto, </span> cuando el programa tiene un motor de inferencias y, mediante un diálogo bastante inteligente y libre con el alumno (sistemas dialogales), asesora al estudiante o tutoriza inteligentemente el aprendizaje. Su desarrollo está muy ligado con los avances en el campo de la Inteligencia Artificial..
+                        </li>
+                    </ol>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad22">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Relacionar columnas.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad22.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/21' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 2.1
+          </button>
+          <button routerLink='/estudiante/subtema/23' nz-button nzType="primary" nzDanger>
+            Subtema 2.3
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 2.3.  Software educativo - TIPOS -->
+<div *ngIf="id == 23">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">2.3. Tipos de Software Educativo
+            </h2>
+
+            <picture class="flex justify-center my-6">
+                <img src="../../../assets/img/subtema23_1.png" alt="Software Educativo" width="400" height="200">
+            </picture>
+
+            <section class="conceptualizacion">
+                <article>
+
+                    <p class="text-lg text-justify mt-3">
+                        Los tipos de software educativos puede catalogarse según el formato de contenido que priorizan. De esta forma, hay herramientas digitales pensadas para aprender jugando, o herramientas que permiten diseñar un tutorial completo que funciona como un curso presencial.
+                    </p>
+
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700 mt-6">Software educativo de tutorial</h3>
+                    <p class="text-lg text-justify mt-3">
+                        El software educativo de tutorial busca generar contenidos que se asemejen a la clase de un profesor, no priorizan necesariamente la interacción en tiempo real, ya que funcionan como un curso empaquetado que puede compartirse por diversos canales y en diferentes momentos.
+    
+                        <br><br>
+    
+                        De forma general, se diseñan para que el alumno pueda seguir una serie de pasos secuenciados, y volver atrás siempre que lo necesite. Un software educativo enfocado en tutoriales, contará con herramientas para la organización de la clase, la carga de contenidos, el diseño y formato de la clase y diferentes posibilidades para compartirlo.
+                    </p>
+
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700 mt-8">Software educativo de simulación</h3>
+                    <p class="text-lg text-justify mt-3">
+                        Los primeros antecedentes educativos del uso de simulaciones por realidad virtual y realidad aumentada, ocurrieron en el año 1993. En ese momento se utilizó realidad virtual mediante un prototipo de laboratorio de física aplicada.
+                        <br><br>
+                        Desde ese entonces, estos tipos de software educativos, ha crecido exponencialmente, y hoy son muchos los software educativo de simulación que permiten acceder y percibir elementos que son imposibles a través de la presencialidad.
+                        <br><br>
+                        Un ejemplo de este tipo de tecnología, se puede ver en los mapas estelares. Estos recrean situaciones, elementos y movimientos del Sistema Solar, para permitirle al alumno explorarlo, sin moverse de su casa.
+                        <br><br>
+                        Utilizan realidad virtual y realidad aumentada, para que los usuarios experimenten lugares, hechos y momentos naturales, físicos o históricos a los que no pueden acceder de forma presencial.
+                    </p>
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema23_2.jpg" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700 mt-8">Software educativo de práctica y ejercitación</h3>
+                    <p class="text-lg text-justify mt-3">
+                        Uno de los tipos de software educativos más usados es el software educativo de práctica y ejercitación. Está dividido en diferentes lecciones, y cada una posee una parte teórica y una práctica. En este tipo de herramientas educativas digitales, hay mayor interacción entre el profesor y los alumnos, ya que están estructurados para brindar lecciones, para luego evaluar lo que se ha retenido en la memoria
+                        <br><br>
+                        Este es el método de enseñanza tradicional didáctico, pero aplicado al mundo digital. Se trata de uno de los software educativos más utilizados por profesores, ya que permite mantener una evaluación constante y un monitoreo de las acciones realizadas por los alumnos.
+                    </p>
+
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700 mt-8">Software de juegos educativos</h3>
+                    <p class="text-lg text-justify mt-3">
+                        Sin duda que una de las mayores ventajas de un software educativo es la posibilidad de aprender jugando, en interactuando constantemente. Los software de juegos educativos están pensados para recompensar al alumno a medida que aumenta su nivel, haciendo el aprendizaje mucho más dinámico.
+                        <picture class="flex justify-center my-6">
+                            <img src="../../../assets/img/subtema23_3.jpg" alt="Software Educativo" width="400" height="200">
+                        </picture>
+                        Este tipo de herramientas capta de forma muy efectiva el interés del estudiante. Los juegos permiten acceder a alumnos de diferentes categorías y edades, para aprender sobre diferentes materias.
+                    </p>
+
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700 mt-8">Programas de resolución de problemas</h3>
+                    <p class="text-lg text-justify mt-3">
+                        Los programas de resolución de problemas, presentan enigmas y desafíos puntuales para que el alumno deba explorar su capacidad analítica. El estudiante irá probando diferentes salidas para llegar hasta la solución del conflicto.
+                        <br><br>
+                        Algunas herramientas de este tipo, permiten explorar posibilidades, plantear hipótesis y seguir una serie de pasos para llegar al resultado.
+                        <br><br>
+                        Un ejemplo de este tipo de software educativo puede darse con un programa que invite a resolver una reacción química, donde el estudiante debe probar diferentes elementos y cantidades hasta dar con el correcto. Son software realmente interactivos, y que despiertan la atención del estudiante.
+                    </p>
+
+                </article>
+            </section>
+
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Documento relacionado</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Puede ampliar sus conocimientos sobre los tipos del Software Educativo dando clic en el botón "Ver más". Allí encontrará más información relacionada a los tipos y ejemplos.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://rockcontent.com/es/blog/software-educativo/" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad23">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Crucigrama.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad23.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/22' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 2.2
+          </button>
+          <button routerLink='/estudiante/subtema/24' nz-button nzType="primary" nzDanger>
+            Subtema 2.4
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 2.4. FUNCIONES SOFTW EDUCATIVO -->
+<div *ngIf="id == 24">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">2.4. FUNCIONES DE LOS SOFTWARE EDUCATIVOS
+            </h2>
+
+            <section class="introduccion mt-1">
+                <article nz-row class="px-8">
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="8" class="flex justify-center p-5">
+                        <picture class="flex justify-center">
+                            <img src="../../../assets/img/subtema24_1.png" alt="Software Educativo" width="400" height="200">
+                        </picture>
+                    </div>
+
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="16" class="mt-2 py-2 flex items-center ">
+                        <p class="text-lg text-justify">
+                            Los programas didácticos, cuando se aplican a la realidad educativa, realizan las funciones básicas propias de los medios didácticos en general y además, en algunos casos, según la forma de uso que determina el profesor, pueden proporcionar funcionalidades específicas.
+                            <br><br>
+                            Por otra parte, como ocurre con otros productos de la actual tecnología educativa, no se puede afirmar que el software educativo por sí mismo sea bueno o malo, todo dependerá del uso que de él se haga, de la manera cómo se utilice en cada situación concreta. En última instancia su funcionalidad y las ventajas e inconvenientes que pueda comportar su uso serán el resultado de las características del material,de su adecuación al contexto educativo al que se aplica y de la manera en que el profesor organice su utilización.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="funciones mt-8">
+                <article class="funcion__informativa">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">Funcion Informativa</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_2.jpg" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        La mayoría de los programas a través de sus
+                        actividades presentan unos contenidos que proporcionan una información
+                        estructuradora de la realidad a los estudiantes. Como todos los medios
+                        didácticos, estos materiales representan la realidad y la ordenan.
+                        <br><br>
+                        Los programas tutoriales, los simuladores y, especialmente, las bases de
+                        datos, son los programas que realizan más marcadamente una función
+                        informativa.
+                    </p>
+                </article>
+
+                <article class="funcion__bd mt-8">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">2.2.2. Las bases de datos</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_3.png" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        Las bases de datos contienen la información específica que cada programa presentará a los alumnos. Pueden estar constituidas por:
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.1. Modelos de comportamiento.</span> Representan la dinámica de unos sistemas. Distinguimos:
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    - Modelos físico-matemáticos, que tienen unas leyes perfectamente
+                                    determinadas por unas ecuaciones.
+                                </li>
+                                <li class="mt-3">
+                                    - Modelos no deterministas, regidos por unas leyes no totalmente
+                                    deterministas, que son representadas por ecuaciones con variables
+                                    aleatorias, por grafos y por tablas de comportamiento.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.2. Datos de tipo texto.</span> Información alfanumérica.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.3. Datos gráficos.</span> Las bases de datos pueden estar constituidas por dibujos, fotografías, secuencias de vídeo, etc
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.2.4. Sonido.</span> Como los programas que permiten componer música, escuchar determinadas composiciones musicales y visionar sus partituras.
+                        </li>
+                    </ol>
+                </article>
+
+                <article class="funcion__algoritmo mt-8">
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">2.2.3. El motor o algoritmo</h3>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema22_4.png" alt="Software Educativo" width="400" height="200">
+                    </picture>
+
+                    <p class="text-lg text-justify mt-3">
+                        El algoritmo del programa, en función de las acciones de los usuarios, gestiona las secuencias en que se presenta la información de las bases de datos y las actividades que pueden realizar los alumnos. Distinguimos 4 tipos de algoritmo:
+                    </p>
+
+                    <ol class="text-lg text-justify mt-3 px-8">
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.1. Lineal,</span> cuando la secuencia de las actividades es única.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.2. Ramificados, </span> cuando están predeterminadas posibles secuencias según las respuestas de los alumnos.
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.3. Tipo entorno, </span> cuando no hay secuencias predeterminadas para el acceso del usuario a la información principal y a las diferentes actividades. El estudiante elige qué ha de hacer y cuándo lo ha de hacer. Este entorno puede ser:
+                            <ul class="text-lg text-justify mt-3 px-8">
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Estático,</span> 
+                                    si el usuario sólo puede consultar (y en algunos casos aumentar o disminuir) la información que proporciona el entorno, pero no puede modificar su estructura.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Dinámico,</span> 
+                                    si el usuario, además de consultar la información, también puede modificar el estado de los elementos que configuran el entorno.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Programable,</span> 
+                                    si a partir de una serie de elementos el usuario puede construir diversos entornos.
+                                </li>
+                                <li class="mt-3">
+                                    <span class="font-semibold">- Instrumental,</span> 
+                                    si ofrece a los usuarios diversos instrumentos para realizar determinados trabajos.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mt-3">
+                            <span class="font-semibold">2.2.3.4. Tipo sistema experto, </span> cuando el programa tiene un motor de inferencias y, mediante un diálogo bastante inteligente y libre con el alumno (sistemas dialogales), asesora al estudiante o tutoriza inteligentemente el aprendizaje. Su desarrollo está muy ligado con los avances en el campo de la Inteligencia Artificial..
+                        </li>
+                    </ol>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad22">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Relacionar columnas.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad22.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/21' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 2.1
+          </button>
+          <button routerLink='/estudiante/subtema/23' nz-button nzType="primary" nzDanger>
+            Subtema 2.3
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
 </div>

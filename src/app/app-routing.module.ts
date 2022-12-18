@@ -27,7 +27,7 @@ const routes: Routes = [
       { path: "welcome", component: WelcomeComponent },
       { path: "calificaciones", component: CalificacionesComponent },
       { path: "tema/:idTema", component: TemasComponent},
-      { path: "subtema/:idSubtema", component: SubtemaComponent}
+      { path: "subtema/:idSubtema", component: SubtemaComponent},
     ]
   },
   

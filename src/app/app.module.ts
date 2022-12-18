@@ -59,7 +59,7 @@ registerLocaleData(es);
     CalificacionesComponent,
     QuestionComponent,
     ChangeBgDirective,
-    SubtemaComponent
+    SubtemaComponent,
   ],
   imports: [
     BrowserModule,

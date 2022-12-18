@@ -1,0 +1,11 @@
+.nav__topics{
+    border-radius: 2px;
+}
+
+/* CARDS */
+.card__header {
+    height: 50px;
+}
+.card__img {
+    height: 300px;
+}
