@@ -15,7 +15,6 @@ export class QuestionComponent implements OnInit {
 
   getNombreUser() {
     let user = JSON.parse(localStorage.getItem("usuario")!);
-    console.log(user)
     return user;
   }
 
@@ -23,7 +22,8 @@ export class QuestionComponent implements OnInit {
   public questionList: any = [];
   public currentQuestion: number = 0;
   public points: number = 0;
-  counter = 60;
+  counter = 120;
+  initial_value=120
   correctAnswer: number = 0;
   inCorrectAnswer: number = 0;
   interval$: any;
@@ -31,6 +31,7 @@ export class QuestionComponent implements OnInit {
   isQuizCompleted : boolean = false;
   isAnswerCompleted : boolean = false;
   id:string
+  theme:string=""
   constructor(private questionService: QuestionService,private aRouter: ActivatedRoute) {
 
     this.id = aRouter.snapshot.paramMap.get('idTema')!;
@@ -45,7 +46,9 @@ export class QuestionComponent implements OnInit {
   getAllQuestions() {
     this.questionService.getQuestionJson()
       .subscribe(res => {
-        this.questionList = res.themes[this.id].questions;
+        console.log(this.id);
+        this.questionList = res.themes[Number(this.id)-1].questions;
+        this.theme = res.themes[Number(this.id)-1].theme;
       })
   }
   nextQuestion() {
@@ -110,7 +113,7 @@ export class QuestionComponent implements OnInit {
         this.counter--;
         if (this.counter === 0) {
           this.currentQuestion++;
-          this.counter = 60;
+          this.counter = this.initial_value;
           // this.points -= 10;
         }
       });
@@ -124,14 +127,14 @@ export class QuestionComponent implements OnInit {
   }
   resetCounter() {
     this.stopCounter();
-    this.counter = 60;
+    this.counter = this.initial_value;
     this.startCounter();
   }
   resetQuiz() {
     this.resetCounter();
     this.getAllQuestions();
     this.points = 0;
-    this.counter = 60;
+    this.counter = this.initial_value;
     this.currentQuestion = 0;
     this.progress = 0;
 

@@ -1,339 +1,971 @@
 {
     "themes":
-        [
+        [ {},
         {
-        "id":1,"questions": [
+        "id":2,
+        "theme":"Software Educativo",
+        "questions": [
         
                 {
-                    "questionText": "Whssssssich of the following does TypeScript use to specify types?",
+                    "questionText": "Se entiende por Software Educativo:",
                     "options": [{
-                            "text": ":",
+                            "text": "Una suerte de combinación entre una biblioteca digital y un buscador",
                             "correct": true
                         },
                         {
-                            "text": ";"
+                            "text": "Es todo recurso digital que carece de filosofía, teoría de aprendizaje y de instrucción"
                         },
                         {
-                            "text": "!"
+                            "text": "Programas para ordenador creados con la finalidad específica de ser utilizados como medio didáctico, es decir, para facilitar los procesos de enseñanza y de aprendizaje"
                         },
                         {
-                            "text": "&"
+                            "text": "Un software consistente de un conjunto de funcionalidades, diseñadas para poner a disposición, hacer seguimientos, entregar reportes y gestionar contenidos de aprendizaje"
                         }
                     ],
-                    "explanation": "TS uses a colon (:) to separate the property name from the property type"
+                    "explanation": ""
                 },
                 {
-                    "questionText": "Which of the following is NOT a type used in TypeScript?",
+                    "questionText": "Son características esenciales de los programas educativos",
                     "options": [{
-                            "text": "number"
-                        },
-                        {
-                            "text": "string"
-                        },
-                        {
-                            "text": "boolean"
-                        },
-                        {
-                            "text": "enum",
+                            "text": "Son interactivos, utilizan el ordenador, son fáciles de usar.",
                             "correct": true
+                        },
+                        {
+                            "text": "Desplegables, automatizados, complejos."
+                        },
+                        {
+                            "text": "Ayudar al docente."
+                        },
+                        {
+                            "text": "Todas las anteriores"
                         }
                     ],
                     "explanation": "enum is not used as a type in TypeScript"
                 },
                 {
-                    "questionText": "How can we specify properties and methods for an object in TypeScript?",
+                    "questionText": "Son módulos de la estructura básica de los programas educativos.",
                     "options": [{
-                            "text": "Use classes."
+                            "text": "Análisis, diseño, producción."
                         },
                         {
-                            "text": "Use interfaces.",
+                            "text": "Base de datos, Frontend, Backend."
+                        },
+                        {
+                            "text": "Comunicación o interface, base de datos, motor o algoritmo.",
                             "correct": true
                         },
                         {
-                            "text": "Use enums."
-                        },
-                        {
-                            "text": "Use async/await."
+                            "text": "Mantenibilidad, usabilidad, operabilidad"
                         }
                     ],
                     "explanation": "interfaces are typically used to list the properties and methods for an object"
                 },
                 {
-                    "questionText": "How else can Array<number> be written in TypeScript?",
+                    "questionText": "La clasificación de software educativo es",
                     "options": [{
-                            "text": "@number"
+                            "text": "Programas lineales y no lineales"
                         },
                         {
-                            "text": "number[]",
+                            "text": "Educativos y políticos"
+                        },
+                        {
+                            "text": "Directivos, no directivos, cerrados y abiertos.",
                             "correct": true
                         },
                         {
-                            "text": "number!"
-                        },
-                        {
-                            "text": "number?"
+                            "text": "Prácticas, tutoriales, simulaciones, juegos instruccionales."
                         }
                     ],
                     "explanation": "number[] is another way of writing Array<number> in TypeScript"
                 },
                 {
-                    "questionText": "In which of these does a class take parameters?",
+                    "questionText": "Son funciones de los programas educativos",
                     "options": [{
-                            "text": "constructor",
+                            "text": "Educar, inspeccionar, fomentar."
+                        },
+                        {
+                            "text": "Instruir, informar, motivar"
+                        },
+                        {
+                            "text": "Análisis, diseño, producción",
                             "correct": true
-                        },
-                        {
-                            "text": "destructor"
-                        },
-                        {
-                            "text": "import"
-                        },
-                        {
-                            "text": "subscribe"
                         }
                     ],
-                    "explanation": "a constructor is used by a class to take in parameters"
+                    "explanation": ""
                 },
                 {
-                    "questionText": "Which is NOT an access modifier?",
+                    "questionText": "Las tipologías de software educativo se basan en aspectos relacionados con",
                     "options": [{
-                            "text": "private"
+                            "text": "Argumentos, Experiencias"
                         },
                         {
-                            "text": "protected"
-                        },
-                        {
-                            "text": "public"
-                        },
-                        {
-                            "text": "async",
+                            "text": "Medios, objetivos, actividades cognitivas",
                             "correct": true
+                        },
+                        {
+                            "text": "Creación, conductismo, enseñanza"
+                        },
+                        {
+                            "text": "Experimentación, constructivismo."
                         }
                     ],
-                    "explanation": "async is not used as an access modifier type in TypeScript"
+                    "explanation": ""
                 },
                 {
-                    "questionText": "Which keyword allows us to share information between files in TypeScript?",
+                    "questionText": "Son aspectos importantes de las simulaciones en las clasificaciones del software educativo.",
                     "options": [{
-                            "text": "import"
+                            "text": "Introducción, presentación, formulación, respuestas, evaluación."
                         },
                         {
-                            "text": "export",
+                            "text": "Presentación, selección de ítems, respuestas, evaluación, retroalimentación"
+                        },
+                        {
+                            "text": "Introducción, presentación del fenómeno, acción requerida, acción del aprendiz, alteración del sistema.",
                             "correct": true
                         },
                         {
-                            "text": "async"
-                        },
-                        {
-                            "text": "constructor"
+                            "text": "Introducción, presentación del objetivo, acción requerida, acción del aprendiz, alteración del sistema."
                         }
                     ],
-                    "explanation": "the export keyword allows for the information to be transmitted between files"
+                    "explanation": ""
                 },
                 {
-                    "questionText": "Which is an array method to generate a new array based on a condition?",
+                    "questionText": "Son principios bases para el software educativo.",
                     "options": [{
-                            "text": "filter",
+                            "text": "Conductismo, cognitivismo, constructivismo."
+                        },
+                        {
+                            "text": "Instruir, educar, formar."
+                        },
+                        {
+                            "text": "Mantenibilidad, usabilidad, operabilidad"
+                        },
+                        {
+                            "text": "Análisis, diseño, producción",
                             "correct": true
-                        },
-                        {
-                            "text": "map"
-                        },
-                        {
-                            "text": "async"
-                        },
-                        {
-                            "text": "enum"
                         }
                     ],
-                    "explanation": "filter is a method used to conditionally create a new array"
+                    "explanation": ""
                 },
                 {
-                    "questionText": "How is a property accessible within a class?",
+                    "questionText": "Son aspectos a considerar para la construcción del software educativo",
                     "options": [{
-                            "text": "Using this.propertyName",
+                            "text": "Material didáctico, organización"
+                        },
+                        {
+                            "text": "Medios, objetivos, creación"
+                        },
+                        {
+                            "text": "Constructivismo, enseñanza, experimentación"
+                        },
+                        {
+                            "text": "Organización, comunicación, planificación didáctica",
+                            "correct": true
+                        }
+                    ],
+                    "explanation": ""
+                },
+                {
+                    "questionText": "Son ítems de la planificación didáctica",
+                    "options": [{
+                            "text": "Creación, conductismo, enseñanza"
+                        },
+                        {
+                            "text": "Organización, comunicación"
+                        },
+                        {
+                            "text": "Inserción en el currículo, objetivos perseguidos, audiencia, contenidos.",
                             "correct": true
                         },
                         {
-                            "text": "Accessors"
-                        },
-                        {
-                            "text": "Destructuring"
-                        },
-                        {
-                            "text": "Arrow function"
+                            "text": "Presentación, evaluación, retroalimentación"
                         }
                     ],
-                    "explanation": "this.propertyName is the way to access a specific property within a class"
+                    "explanation": ""
                 }
         ]
-            
         },
-        {"id":2,"questions": [
+        {
+            "id":3,
+            "theme":"Generalidades de la Educación Virtual",
+            "questions": [
+            
+                    {
+                        "questionText": "Se entiende por Objeto Virtual de Aprendizaje",
+                        "options": [{
+                                "text": "También conocidas como sistemas de administración de aprendizaje."
+                            },
+                            {
+                                "text": "Un conjunto de recursos digitales, auto contenible y reutilizable.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador."
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son componentes internos de un OVA.",
+                        "options": [{
+                                "text": "Desplegables, automatizados, complejos."
+                            },
+                            {
+                                "text": "Contenidos, actividades de aprendizaje y elementos de contextualización.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Se utilizan en los periódicos, desechables, anticuados."
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": "enum is not used as a type in TypeScript"
+                    },
+                    {
+                        "questionText": "Un OVA se caracteriza por tener",
+                        "options": [{
+                                "text": "Información externa o metadatos que facilite su almacenamiento.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Base de datos, Frontend, Backend."
+                            },
+                            {
+                                "text": "Comunicación o interface, base de datos, motor o algoritmo."
+                            },
+                            {
+                                "text": "Mantenibilidad, usabilidad, operabilidad."
+                            }
+                        ],
+                        "explanation": "interfaces are typically used to list the properties and methods for an object"
+                    },
+                    {
+                        "questionText": "¿Qué son los LMS?",
+                        "options": [{
+                                "text": "Programas lineales y no lineales"
+                            },
+                            {
+                                "text": "Educativos y políticos"
+                            },
+                            {
+                                "text": "Directivos, no directivos, cerrados y abiertos.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Prácticas, tutoriales, simulaciones, juegos instruccionales."
+                            }
+                        ],
+                        "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                    },
+                    {
+                        "questionText": "Son características de los LMS",
+                        "options": [{
+                                "text": "Educar, inspeccionar, fomentar."
+                            },
+                            {
+                                "text": "Interactividad, flexibilidad, escalabilidad."
+                            },
+                            {
+                                "text": "Desplegables, mantenibilidad operabilidad.",
+                                "correct": true
+                            },{
+                                "text": "Todas las anteriores"
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Definición de los EXE-Learning:",
+                        "options": [{
+                                "text": "Información externa o metadatos que facilite su almacenamiento."
+                            },
+                            {
+                                "text": "También conocidas como sistemas de administración de aprendizaje.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje."
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Por cuál Universidad fue dirigida la creación del EXE - LEARNING.",
+                        "options": [{
+                                "text": "Politécnica de Tairawhiti."
+                            },
+                            {
+                                "text": "Universidad de tecnología de Auckland."
+                            },
+                            {
+                                "text": "Universidad de Auckland."
+                            },
+                            {
+                                "text": "Todas las anteriores.",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "¿Qué es SCORM?",
+                        "options": [{
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador."
+                            },
+                            {
+                                "text": "Es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados.",
+                                "correct": true
+                            },
+                            {
+                                "text": "También conocidas como sistemas de administración de aprendizaje."
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Se entiende por LOM:",
+                        "options": [{
+                                "text": "Es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados."
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            },
+                            {
+                                "text": "Modelo de datos, usualmente codificado en XML, usado para describir objetos de aprendizajes.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Dentro del SCORM se encuentra:",
+                        "options": [{
+                                "text": "Exe-learning."
+                            },
+                            {
+                                "text": "LOM"
+                            },
+                            {
+                                "text": "LMS"
+                            },
+                            {
+                                "text": "SCO",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    }
+            ]
+        },
+        {
+            "id":4,
+            "theme":"Metodología para el desarrollo de Objetos Virtuales de Aprendizaje",
+            "questions": [
+            
+                    {
+                        "questionText": "En el modelo de desarrollo de software Educativo se plantean un sistema de competencias e integra cinco fases:",
+                        "options": [{
+                                "text": "Análisis, diseño, producción, despliegue, publicación."
+                            },
+                            {
+                                "text": "Diseño Educativo, multimedial, computacional, producción, aplicación.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Diseño BD, diseño mockups, desarrollo Backend y Frontend, despliegue y soporte."
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Qué se realiza en la fase I de la construcción de un OVA.",
+                        "options": [{
+                                "text": "Educar, inspeccionar y fomentar."
+                            },
+                            {
+                                "text": "Contenidos, actividades de aprendizaje y elementos de contextualización."
+                            },
+                            {
+                                "text": "Se hace el estudio de los factores educativos que sustentarán el diseño del software en cuanto a la didáctica, pedagogía y ética.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": "enum is not used as a type in TypeScript"
+                    },
+                    {
+                        "questionText": "“Se trabajan los fundamentos de ingeniería de software que requiere el desarrollo de una aplicación robusta y amigable” Esto es lo que se trabaja en la fase:",
+                        "options": [{
+                                "text": "Fase IV."
+                            },
+                            {
+                                "text": "Fase V."
+                            },
+                            {
+                                "text": "Fase II."
+                            },
+                            {
+                                "text": "Fase III.",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": "interfaces are typically used to list the properties and methods for an object"
+                    },
+                    {
+                        "questionText": "Son aspectos a tener en cuenta durante la fase I:",
+                        "options": [{
+                                "text": "Desplegables, mantenibilidad y operatividad."
+                            },
+                            {
+                                "text": "Análisis de la necesidad educativa, diseño de fines educativos, diseño del sistema de competencias, diseño de contenidos, diseño pedagógico y diseño de aprendizaje.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje."
+                            },
+                            {
+                                "text": "Todas las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "La fase III Diseño computacional nos dice:",
+                        "options": [{
+                                "text": "Se hace el estudio de los factores educativos que sustentarán el diseño del software en cuanto a la didáctica, pedagogía y ética."
+                            },
+                            {
+                                "text": "Comprende el conjunto de directrices que permitirán una comunicación directa entre el usuario y la computadora."
+                            },
+                            {
+                                "text": "Comprende la descripción de los elementos que permitirán que el sistema funcione a cabalidad con los procesos que fueron definidos en el transcurso del diseño educativo y multimedial.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Todas las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son fases para la definición de la metodología de los OVAS:",
+                        "options": [{
+                                "text": "Análisis de requerimientos, propuesta estructural, diseño, desarrollo, catalogación, calidad, pruebas, publicación."
+                            },
+                            {
+                                "text": "Diseño Educativo, multimedial, computacional, producción, aplicación.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Diseño, aplicación de ingeniería de software, pruebas, calidad, despliegue."
+                            },
+                            {
+                                "text": "Diseño, análisis, producción, pruebas, despliegue.."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Se entiende por formato ECOBA a:",
+                        "options": [{
+                                "text": "Determina la calidad de un objeto a través de cada uno de los ejes: pertinencia, diseño estético, diseño instruccional.s",
+                                "correct": true
+                            },
+                            {
+                                "text": "Modelo de datos, usualmente codificado en XML, usado para describir objetos de aprendizajes."
+                            },
+                            {
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador."
+                            },
+                            {
+                                "text": "Ninguna de las anteriores"
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "¿Qué es software libre?",
+                        "options": [{
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador."
+                            },
+                            {
+                                "text": "Es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados."
+                            },
+                            {
+                                "text": "Es un software que respeta la libertad de los usuarios y la comunidad. A grandes rasgos, significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Para la catalogación de los OVAs, se puede utilizar el estándar LOM, el cual se entiende por:",
+                        "options": [{
+                                "text": "Es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            },
+                            {
+                                "text": "Modelo de datos, usualmente codificado en XML, usado para describir objetos de aprendizajes."
+                            },
+                            {
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son herramientas para el desarrollo de OVAS:",
+                        "options": [{
+                                "text": "Exe-learning.",
+                                "correct": true
+                            },
+                            {
+                                "text": "LOM"
+                            },
+                            {
+                                "text": "LMS"
+                            },
+                            {
+                                "text": "Todas las anteriores. "
+                            }
+                        ],
+                        "explanation": ""
+                    }
+            ]
+        },
         
-            {
-                "questionText": "Which of the following does TypeScript use to specify types?",
-                "options": [{
-                        "text": ":",
-                        "correct": true
+        {
+            "id":5,
+            "theme":"Herramientas para el desarrollo de Objetos Virtuales de Aprendizaje",
+            "questions": [
+            
+                    {
+                        "questionText": "Se entiende por herramienta de autor:",
+                        "options": [{
+                                "text": "También conocidas como sistemas de administración de aprendizaje."
+                            },
+                            {
+                                "text": "Un conjunto de recursos digitales, auto contenible y reutilizable."
+                            },
+                            {
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador."
+                            },
+                            {
+                                "text": "Un programa que permite la creación de contenido digital, desde documentos simples hasta cursos completos.",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
                     },
                     {
-                        "text": ";"
+                        "questionText": "Características principales de las herramientas de autor para OVAs.",
+                        "options": [{
+                                "text": "Desplegables, automatizados, complejos.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Contenidos, actividades de aprendizaje y elementos de contextualización."
+                            },
+                            {
+                                "text": "Procesadores de contenido multimedia, edición de contenido, animación y programación."
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": ""
                     },
                     {
-                        "text": "!"
+                        "questionText": "Es un ejemplo de herramientas de autor para OVAs:",
+                        "options": [{
+                                "text": "Paint."
+                            },
+                            {
+                                "text": "Canva."
+                            },
+                            {
+                                "text": "PowerPoint."
+                            },
+                            {
+                                "text": "Editor de Gamelearn.",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": "interfaces are typically used to list the properties and methods for an object"
                     },
                     {
-                        "text": "&"
+                        "questionText": "¿Qué son los LMS?",
+                        "options": [{
+                                "text": "Programas lineales y no lineales."
+                            },
+                            {
+                                "text": "Herramienta de código abierto que facilita la creación de contenidos educativos."
+                            },
+                            {
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Prácticas, tutoriales, simulaciones, juegos instruccionales."
+                            }
+                        ],
+                        "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                    },
+                    {
+                        "questionText": "Son ventajas de una herramienta de autor.",
+                        "options": [{
+                                "text": "Ahorrar tiempo de trabajo, aumentar la productividad, transformar contenido informativo.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Interactividad, flexibilidad, escalabilidad."
+                            },
+                            {
+                                "text": "Desplegables, mantenibilidad operabilidad."
+                            },
+                            {
+                                "text": "Todas las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son herramientas para el diseño de actividades:",
+                        "options": [{
+                                "text": "JClic."
+                            },
+                            {
+                                "text": "Ardora.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Educaplay."
+                            },
+                            {
+                                "text": "Todas las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "¿Qué es Ardora?",
+                        "options": [{
+                                "text": "Software consistente de un conjunto de funcionalidades para gestionar contenidos de aprendizaje."
+                            },
+                            {
+                                "text": "Es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados."
+                            },
+                            {
+                                "text": "Es una aplicación informática para docentes, que permite la creación de contenidos web, de un modo muy sencillo, sin la necesidad de tener conocimientos técnicos de diseño o programación web.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Ventajas de Ardora:",
+                        "options": [{
+                                "text": "Disponibles en varios idiomas, fácil de usar, posibilidad de publicar ejercicios.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Son interactivos, utilizan el ordenador, son fáciles de usar."
+                            },
+                            {
+                                "text": "Son portables y complejos."
+                            },
+                            {
+                                "text": "Ninguna de las anteriores."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son aspectos a considerar para la construcción del software educativo",
+                        "options": [{
+                                "text": "Material didáctico, organización"
+                            },
+                            {
+                                "text": "Medios, objetivos, creación"
+                            },
+                            {
+                                "text": "Constructivismo, enseñanza, experimentación"
+                            },
+                            {
+                                "text": "Organización, comunicación, planificación didáctica",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son ítems de la planificación didáctica",
+                        "options": [{
+                                "text": "Creación, conductismo, enseñanza"
+                            },
+                            {
+                                "text": "Organización, comunicación"
+                            },
+                            {
+                                "text": "Inserción en el currículo, objetivos perseguidos, audiencia, contenidos.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Presentación, evaluación, retroalimentación"
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Este tipo de software está diseñado para que:",
+                        "options": [{
+                                "text": "la interacción con su plataforma sea lo más sencilla posible.",
+                                "correct": true
+                            },
+                            {
+                                "text": "el usuario se mantenga entretenido."
+                            },
+                            {
+                                "text": "la interacción con el usuario sera nula"
+                            },
+                            {
+                                "text": "el usuario reflexione sobre los temas tratados."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Ventajas de tener un Software Educativo",
+                        "options": [{
+                                "text": "Mejora la comunicación con las partes involucradas,Ahorra tiempo,Agiliza los procesos administrativos",
+                                "correct": true
+                            },
+                            {
+                                "text": "Facilidad de aprendiazaje, motivación de aprendizaje."
+                            },
+                            {
+                                "text": "Mayores ganancias economicas, reusabilidad."
+                            },
+                            {
+                                "text": "Mejora de los procesos de aprendizaje de los docentes."
+                            }
+                        ],
+                        "explanation": ""
                     }
-                ],
-                "explanation": "TS uses a colon (:) to separate the property name from the property type"
-            },
-            {
-                "questionText": "Which of the following is NOT a type used in TypeScript?",
-                "options": [{
-                        "text": "number"
+            ]
+        },
+        {
+            "id":6,
+            "theme":"Examen final",
+            "questions": [
+            
+                    {
+                        "questionText": "Se entiende por Software Educativo:",
+                        "options": [{
+                                "text": "Una suerte de combinación entre una biblioteca digital y un buscador",
+                                "correct": true
+                            },
+                            {
+                                "text": "Es todo recurso digital que carece de filosofía, teoría de aprendizaje y de instrucción"
+                            },
+                            {
+                                "text": "Programas para ordenador creados con la finalidad específica de ser utilizados como medio didáctico, es decir, para facilitar los procesos de enseñanza y de aprendizaje"
+                            },
+                            {
+                                "text": "Un software consistente de un conjunto de funcionalidades, diseñadas para poner a disposición, hacer seguimientos, entregar reportes y gestionar contenidos de aprendizaje"
+                            }
+                        ],
+                        "explanation": ""
                     },
                     {
-                        "text": "string"
+                        "questionText": "Son características esenciales de los programas educativos",
+                        "options": [{
+                                "text": "Son interactivos, utilizan el ordenador, son fáciles de usar.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Desplegables, automatizados, complejos."
+                            },
+                            {
+                                "text": "Ayudar al docente."
+                            },
+                            {
+                                "text": "Todas las anteriores"
+                            }
+                        ],
+                        "explanation": "enum is not used as a type in TypeScript"
                     },
                     {
-                        "text": "boolean"
+                        "questionText": "Son módulos de la estructura básica de los programas educativos.",
+                        "options": [{
+                                "text": "Análisis, diseño, producción."
+                            },
+                            {
+                                "text": "Base de datos, Frontend, Backend."
+                            },
+                            {
+                                "text": "Comunicación o interface, base de datos, motor o algoritmo.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Mantenibilidad, usabilidad, operabilidad"
+                            }
+                        ],
+                        "explanation": "interfaces are typically used to list the properties and methods for an object"
                     },
                     {
-                        "text": "enum",
-                        "correct": true
+                        "questionText": "La clasificación de software educativo es",
+                        "options": [{
+                                "text": "Programas lineales y no lineales"
+                            },
+                            {
+                                "text": "Educativos y políticos"
+                            },
+                            {
+                                "text": "Directivos, no directivos, cerrados y abiertos.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Prácticas, tutoriales, simulaciones, juegos instruccionales."
+                            }
+                        ],
+                        "explanation": "number[] is another way of writing Array<number> in TypeScript"
+                    },
+                    {
+                        "questionText": "Son funciones de los programas educativos",
+                        "options": [{
+                                "text": "Educar, inspeccionar, fomentar."
+                            },
+                            {
+                                "text": "Instruir, informar, motivar"
+                            },
+                            {
+                                "text": "Análisis, diseño, producción",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Las tipologías de software educativo se basan en aspectos relacionados con",
+                        "options": [{
+                                "text": "Argumentos, Experiencias"
+                            },
+                            {
+                                "text": "Medios, objetivos, actividades cognitivas",
+                                "correct": true
+                            },
+                            {
+                                "text": "Creación, conductismo, enseñanza"
+                            },
+                            {
+                                "text": "Experimentación, constructivismo."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son aspectos importantes de las simulaciones en las clasificaciones del software educativo.",
+                        "options": [{
+                                "text": "Introducción, presentación, formulación, respuestas, evaluación."
+                            },
+                            {
+                                "text": "Presentación, selección de ítems, respuestas, evaluación, retroalimentación"
+                            },
+                            {
+                                "text": "Introducción, presentación del fenómeno, acción requerida, acción del aprendiz, alteración del sistema.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Introducción, presentación del objetivo, acción requerida, acción del aprendiz, alteración del sistema."
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son principios bases para el software educativo.",
+                        "options": [{
+                                "text": "Conductismo, cognitivismo, constructivismo."
+                            },
+                            {
+                                "text": "Instruir, educar, formar."
+                            },
+                            {
+                                "text": "Mantenibilidad, usabilidad, operabilidad"
+                            },
+                            {
+                                "text": "Análisis, diseño, producción",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son aspectos a considerar para la construcción del software educativo",
+                        "options": [{
+                                "text": "Material didáctico, organización"
+                            },
+                            {
+                                "text": "Medios, objetivos, creación"
+                            },
+                            {
+                                "text": "Constructivismo, enseñanza, experimentación"
+                            },
+                            {
+                                "text": "Organización, comunicación, planificación didáctica",
+                                "correct": true
+                            }
+                        ],
+                        "explanation": ""
+                    },
+                    {
+                        "questionText": "Son ítems de la planificación didáctica",
+                        "options": [{
+                                "text": "Creación, conductismo, enseñanza"
+                            },
+                            {
+                                "text": "Organización, comunicación"
+                            },
+                            {
+                                "text": "Inserción en el currículo, objetivos perseguidos, audiencia, contenidos.",
+                                "correct": true
+                            },
+                            {
+                                "text": "Presentación, evaluación, retroalimentación"
+                            }
+                        ],
+                        "explanation": ""
                     }
-                ],
-                "explanation": "enum is not used as a type in TypeScript"
-            },
-            {
-                "questionText": "How can we specify properties and methods for an object in TypeScript?",
-                "options": [{
-                        "text": "Use classes."
-                    },
-                    {
-                        "text": "Use interfaces.",
-                        "correct": true
-                    },
-                    {
-                        "text": "Use enums."
-                    },
-                    {
-                        "text": "Use async/await."
-                    }
-                ],
-                "explanation": "interfaces are typically used to list the properties and methods for an object"
-            },
-            {
-                "questionText": "How else can Array<number> be written in TypeScript?",
-                "options": [{
-                        "text": "@number"
-                    },
-                    {
-                        "text": "number[]",
-                        "correct": true
-                    },
-                    {
-                        "text": "number!"
-                    },
-                    {
-                        "text": "number?"
-                    }
-                ],
-                "explanation": "number[] is another way of writing Array<number> in TypeScript"
-            },
-            {
-                "questionText": "In which of these does a class take parameters?",
-                "options": [{
-                        "text": "constructor",
-                        "correct": true
-                    },
-                    {
-                        "text": "destructor"
-                    },
-                    {
-                        "text": "import"
-                    },
-                    {
-                        "text": "subscribe"
-                    }
-                ],
-                "explanation": "a constructor is used by a class to take in parameters"
-            },
-            {
-                "questionText": "Which is NOT an access modifier?",
-                "options": [{
-                        "text": "private"
-                    },
-                    {
-                        "text": "protected"
-                    },
-                    {
-                        "text": "public"
-                    },
-                    {
-                        "text": "async",
-                        "correct": true
-                    }
-                ],
-                "explanation": "async is not used as an access modifier type in TypeScript"
-            },
-            {
-                "questionText": "Which keyword allows us to share information between files in TypeScript?",
-                "options": [{
-                        "text": "import"
-                    },
-                    {
-                        "text": "export",
-                        "correct": true
-                    },
-                    {
-                        "text": "async"
-                    },
-                    {
-                        "text": "constructor"
-                    }
-                ],
-                "explanation": "the export keyword allows for the information to be transmitted between files"
-            },
-            {
-                "questionText": "Which is an array method to generate a new array based on a condition?",
-                "options": [{
-                        "text": "filter",
-                        "correct": true
-                    },
-                    {
-                        "text": "map"
-                    },
-                    {
-                        "text": "async"
-                    },
-                    {
-                        "text": "enum"
-                    }
-                ],
-                "explanation": "filter is a method used to conditionally create a new array"
-            },
-            {
-                "questionText": "How is a property accessible within a class?",
-                "options": [{
-                        "text": "Using this.propertyName",
-                        "correct": true
-                    },
-                    {
-                        "text": "Accessors"
-                    },
-                    {
-                        "text": "Destructuring"
-                    },
-                    {
-                        "text": "Arrow function"
-                    }
-                ],
-                "explanation": "this.propertyName is the way to access a specific property within a class"
-            }
-        ]}
+            ]
+        }
         ]
     
 }

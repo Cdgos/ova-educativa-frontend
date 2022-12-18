@@ -6,7 +6,7 @@
                     <img src="../../../assets/img/logo_sistemasvertical.jpg" width="100" alt="logo">
                 </div>
                 <div class="quiz-header text-center">
-                    <h4 class="text-red-700 text-2xl font-bold mb-2">Tema # - Nombre del tema</h4>
+                    <h4 class="text-red-700 text-2xl font-bold mb-2">Tema #{{id}} - {{theme}}</h4>
                     <span class="font-semibold text-xl">Bienvenido {{nombreUsuario.nombre}}</span>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 <div class="flex justify-end">
                     <!-- <button [disabled]="currentQuestion===0" class="btn" (click)="previousQuestion()"><i class="fa text-primary fa-chevron-left fa-3x" aria-hidden="true"></i></button> -->
                     <!-- <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh text-primary fa-3x" aria-hidden="true"></i></button> -->
-                    <button [disabled]="currentQuestion===8" nz-button nzType="primary" nzDanger (click)="nextQuestion()" class="flex items-center">
+                    <button [disabled]="currentQuestion===9" nz-button nzType="primary" nzDanger (click)="nextQuestion()" class="flex items-center">
                         Siguiente
                         <span nz-icon nzType="right-circle" nzTheme="outline"></span>
                     </button>
