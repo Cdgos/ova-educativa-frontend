@@ -37,7 +37,6 @@ export class UserDropdownComponent implements OnInit {
 
   getNombreUser() {
     let user = JSON.parse(localStorage.getItem("usuario")!);
-    console.log(user)
     return user;
   }
 
