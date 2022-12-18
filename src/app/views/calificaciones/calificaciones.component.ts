@@ -1,3 +1,4 @@
+import Swal from "sweetalert2"
 import { QuestionService } from 'src/app/services/question.service';
 import { Component, OnInit } from '@angular/core';
 
@@ -14,9 +15,16 @@ export class CalificacionesComponent implements OnInit {
   notas:any[]=[]
 
   ngOnInit(): void {
+
+    Swal.fire({
+      title: "Cargando calificaciones, un momento por favor...",
+      didOpen: () =>{
+        Swal.showLoading(null);
+      }
+    })
     this.questionService.getActividades(this.user.codigo).subscribe(res=>{
       this.notas=res[0].actividadResponseList
-      console.log(this.notas);
+      Swal.close()
     })
   }
   approved(note:number):boolean{
