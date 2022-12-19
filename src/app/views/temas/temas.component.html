@@ -621,3 +621,64 @@
           </button>
     </div>
 </div>
+
+<!-- CUESTIONARIO FINAL -->
+<div *ngIf="id == 6">
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h1 class="text-center uppercase text-2xl font-bold text-blueGray-700">Cuestionario Final</h1>
+        </article>
+    </section>
+
+    <!-- CARDS, INICIO LECTURA SUBTEMAS Y EVALUACION -->
+    <section class="cards mt-2">
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Evaluación</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Cantidad de preguntas: </span> 10
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> 5.0 | (0.5 por pregunta).
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> 20 minutos
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> 1
+                            </li>
+
+                        </ul>
+                        <div class="text-lg text-justify mt-2 bg-red-300 p-2" style="border: 1px solid; border-radius: 2px;">
+                            <span nz-icon nzType="alert" nzTheme="outline" class="p-1"></span>
+                            <span class="font-bold px-1">Requisitos: </span> Haber estudiado cada uno de temas correspondientes.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a routerLink='/question/6' class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+</section>
+</div>
