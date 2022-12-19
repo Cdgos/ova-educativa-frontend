@@ -72,19 +72,10 @@ export class QuestionComponent implements OnInit {
   previousQuestion() {
     this.currentQuestion--;
   }
-  answer(currentQno: number, option: any) {
 
-    if(currentQno === this.questionList.length){
-      this.isQuizCompleted=true
-      let nota = {
-        "codigo":this.user.codigo,
-        "idActividad":Number(this.id),
-        "calificacion":this.points
-      }
-      this.stopCounter();
-      this.questionService.updateQuestion(nota).subscribe(resp=>{
-      })
-    }
+  answer(currentQno: number, option: any) {
+    console.log("XXXXXXXXXX",currentQno);
+   
 
     if (option.correct ) {
       if(!this.isAnswerCompleted){
@@ -113,6 +104,18 @@ export class QuestionComponent implements OnInit {
       }, 1000);
     }
 
+    }
+    if(currentQno === this.questionList.length){
+      this.isQuizCompleted=true
+      let nota = {
+        "codigo":this.user.codigo,
+        "idActividad":Number(this.id),
+        "calificacion":this.points
+      }
+      console.log(nota);
+      this.stopCounter();
+      this.questionService.updateQuestion(nota).subscribe(resp=>{
+      })
     }
   }
   startCounter() {
