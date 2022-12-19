@@ -1062,7 +1062,7 @@
             <span nz-icon nzType="left"></span>
             Tema 3
           </button>
-          <button routerLink='/estudiante/subtema/32' fragment="evaluacion2" nz-button nzType="primary" nzDanger>
+          <button routerLink='/estudiante/subtema/32' nz-button nzType="primary" nzDanger>
             Subtema 3.2
             <span nz-icon nzType="right"></span>
           </button>
@@ -1268,8 +1268,1473 @@
             <span nz-icon nzType="left"></span>
             Subtema 3.1
           </button>
-          <button routerLink='/estudiante/subtema/33' fragment="evaluacion2" nz-button nzType="primary" nzDanger>
+          <button routerLink='/estudiante/subtema/33' nz-button nzType="primary" nzDanger>
             Subtema 3.3
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 3.3. EXE-LEARNING Y RELOAD -->
+<div *ngIf="id == 33">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">3.3. HERRAMIENTAS EXE-LEARNING Y RELOAD EDITOR.
+            </h2>
+
+            <!-- Exe-learning -->
+            <section class="introduccion mt-6">
+                <h3 class="text-center uppercase text-2xl font-bold text-blueGray-700">EXE-LEARNING</h3>
+                <article>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema33_1.png" alt="exe-learning" width="200" height="100">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Es una herramienta de código abierto (open source) que facilita la creación de contenidos
+                            educativos sin necesidad de ser experto en HTML o XML. Se trata de una aplicación
+                            multiplataforma que nos permite la utilización de árboles de contenido, elementos
+                            multimedia, actividades interactivas de autoevaluación... facilitando la exportación del
+                            contenido generado a múltiples formatos: HTML, SCORM, IMS, etc.
+                        </p>
+                </article>
+            </section>
+
+            <section class="caracteristicas mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">CARACTERÍSTICAS</h3>
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>- Descarga gratuita</li>
+                        <li class="mt-3">- Disponible para todos los sistemas operativos</li>
+                        <li class="mt-3">- Código abierto</li>
+                        <li class="mt-3">- Permite exportar a varios formatos</li>
+                    </ol>
+                </article>
+            </section>
+
+            <section class="funcionalidades mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">¿Qué se puede hacer en exe-learning?</h3>
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>- Crear árbol de navegación</li>
+                        <li class="mt-3">- Editar y copiar texto</li>
+                        <li class="mt-3">- Incluir imágenes</li>
+                        <li class="mt-3">- Incluir sonidos</li>
+                        <li class="mt-3">- Incluir videos y animaciones</li>
+                        <li class="mt-3">- Actividades sencillas</li>
+                    </ol>
+                </article>
+            </section>
+
+            <!-- Reload -->
+            <section class="introduccion mt-6">
+                <h3 class="text-center uppercase text-2xl font-bold text-blueGray-700">RELOAD EDITOR</h3>
+                <article nz-row class="px-8">
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="8" class="flex justify-center p-5">
+                        <picture class="flex justify-center">
+                            <img src="../../../assets/img/subtema33_2.png" alt="exe-learning" width="300" height="100">
+                        </picture>
+                    </div>
+
+                    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="16" class="mt-2 py-2 flex items-center ">
+                        <p class="text-lg text-justify">
+                            RELOAD Editor es un empaquetador de contenido y un editor de Metadatos. RELOAD
+                            Editor es la herramienta adecuada para aquellas personas que trabajan o crean materiales
+                            educativos y desean que estos puedan ser compartidos.
+                            <br><br>
+                            Crear un paquete de contenido es la mejor forma de compartir materiales educativos.
+Todos los archivos requeridos se almacenan convenientemente dentro de un único archivo
+.zip y la estructura estándar creada puede ser entendida por un programa de repositorio y por
+Entornos de Aprendizaje.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="conceptualizacion mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">¿Qué ayuda ofrece el programa RELOAD Editor?</h3>
+
+                    <p class="text-lg text-justify mt-3">
+                        Crear el fichero del manifiesto implica crear un archivo en formato XML. Aunque similar
+                        al HTML, XML es mucho más complejo y, por tanto, menos sencillo de trabajar con él. A
+                        través de una interfaz de usuario/a de forma visual para la tarea de creación del
+                        manifiesto,RELOAD Editor proporciona una forma muy simple de crear paquetes de
+                        contenido y Metadatos, simplemente arrastrando archivos de un panel a otro y escribiendo la
+                        información dentro de campos en formularios.
+                        <br><br>
+                        RELOAD Editor también permite previsualizar el Paquete de Contenido con el fin de
+comprobar que se obtiene lo que se esperaba.
+                        <br><br>
+                        La aplicación no es bella precisamente, pero es lo más funcional que existe desde su
+creación hace casi 10 años y aún su uso se hace fundamental en comunidades grandes donde
+haya varias plataformas. Gracias a Reload podremos actualizar cursos que tengan muchos
+años y actualizar su tabla de contenido.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Comparacion -->
+            <section class="comparacion mt-6">
+                <article>
+                    <h3 class="text-center uppercase text-2xl font-bold text-blueGray-700">Cuadro comparativo Exe-learning vs Reload Editor</h3>
+
+                    <picture class="flex justify-center mt-4">
+                        <img src="../../../assets/img/subtema33_3.png" alt="exe-learning" width="500" height="700">
+                    </picture>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">EXE-LEARNING Y RELOAD EDITOR</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Amplie sus conocimientos en las herramientas EXE-LEARNING y RELOAD EDITOR dando clic en "VER MÁS".
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://kupdf.net/download/exelearning-y-reload-editor_63154a3de2b6f50e698b081b_pdf" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad33">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Espacios en blanco.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad33.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/32' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 3.2
+          </button>
+          <button routerLink='/estudiante/subtema/34' nz-button nzType="primary" nzDanger>
+            Subtema 3.4
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 3.4. SCORM -->
+<div *ngIf="id == 34">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">3.4. SCORM.
+            </h2>
+
+            <!-- Exe-learning -->
+            <section class="introduccion mt-6">
+                <article>
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema34_1.png" alt="scorm" width="300" height="350">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        SCORM (del inglés Shareable Content Object Reference Model, traducible al español como Modelo Referenciado de Objetos de Contenido Compartible) es un conjunto de estándares y especificaciones que permite crear objetos pedagógicos estructurados, con objetivos fundamentales de facilitar la portabilidad de contenido de aprendizaje, poder compartirlo y reusarlo. También se lo puede definir como un conjunto de objetos de aprendizaje empaquetados y estructurados como material web de forma pedagógica bajo un estándar libre que permite importar, reutilizar y compartir contenidos. 
+                        <br><br>
+                        SCORM es un sistema que sirve para cargar un contenido creado por un tercero en nuestra plataforma de formación y usarlo para impartir nuestras formaciones.
+                        
+                        </p>
+                </article>
+            </section>
+
+            <section class="ventajas mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">VENTAJAS</h3>
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>- Accesibilidad, permite acceder desde cualquier navegador y dispositivo por lo que se puede usar en cualquier momento y lugar. Además autoriza la visualización en cualquier LMS. </li>
+                        <li class="mt-3">- Individualización en el proceso de aprendizaje, analiza el LMS en que se integra y realiza un seguimiento de la actividad de cada alumno para ofrecer un proceso de enseñanza-aprendizaje personalizado. 
+                        </li>
+                        <li class="mt-3">- Todos los datos de los estudiantes quedan registrados para facilitar este proceso y permitir una comunicación con la plataforma utilizada. 
+                        </li>
+                        <li class="mt-3">- Hipermedia o incorporación de hipertexto y multimedia. Incluso hace posible la inclusión de herramientas gamificadoras o simulaciones. 
+                        </li>
+                        <li class="mt-3">- Reusabilidad, los contenidos que incluye tienen una durabilidad indefinida. Tolera la interactuación entre el discente y los contenidos planteados, por lo que su complejidad depende del nivel de los contenidos.
+                        </li>
+                    </ol>
+                </article>
+            </section>
+
+            <section class="contenido mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">¿Qué contiene un paquete SCORM? ?</h3>
+
+                    <p class="text-lg text-justify mt-3">
+                        Cuando compramos un contenido SCORM, normalmente nos entregan uno o varios ficheros comprimidos con zip. Cada uno de estos ficheros contiene una parte de ese contenido que deberemos cargar en nuestra plataforma. 
+                        <picture class="flex justify-center py-6">
+                            <img src="../../../assets/img/subtema34_2.png" alt="exe-learning" width="500" height="700">
+                        </picture>
+                        Pero el contenido dependerá del proveedor del contenido, pero siempre hay unos elementos comunes que hacen posible que nuestra plataforma sepa qué contenido es, cuál es su estructura y qué elementos debe evaluar cuando un alumno accede a ese contenido
+                    </p>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">EXE-LEARNING Y RELOAD EDITOR</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Amplie sus conocimientos en la herramientas SCORM dando clic en "VER MÁS". llí encontrarás adicionalmente historia, más funcionalidades y que contiene un paquete SCORM.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.adrformacion.com/blog/scorm_que_es_y_para_que_sirve.html" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad34">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Relacionar columnas.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad34.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/33' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 3.3
+          </button>
+          <button routerLink='/estudiante/subtema/35' nz-button nzType="primary" nzDanger>
+            Subtema 3.5
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 3.5. LOM-->
+<div *ngIf="id == 35">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">3.5. Metadatos para objetos de aprendizaje (LOM).
+            </h2>
+
+            <!-- Exe-learning -->
+            <section class="introduccion mt-6">
+                <article>
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtem35_.png" alt="scorm" width="300" height="350">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Learning Object Metadata (LOM, inglés «metadatos para objetos de aprendizaje») es un
+                        modelo de datos, usualmente codificado en XML, usado para describir un objeto de aprendizaje
+                        y otros recursos digitales similares usados para el apoyo al aprendizaje.1 Su propósito es ayudar
+                        a la reutilización de objetos de aprendizaje y facilitar su internacionalidad, usualmente en el
+                        contexto de sistemas de aprendizaje en línea: (on-line learning management systems (LMS)).
+                        <br><br>
+                        El estándar IEEE 1484.12.1:2002 sobre metadatos para objetos de aprendizaje es un
+estándar abierto internacionalmente reconocido (publicado por el Instituto de Ingenieros
+Eléctricos y Electrónicos) para la descripción de los "objetos de aprendizaje". Las cualidades
+relevantes de los objetos de aprendizaje que se describen incluyen: título, idioma, tipo de
+objeto, autor, propietario, términos de distribución, formato, copyright, y cualidades
+pedagógicas, tales como estilo de la enseñanza o de la interacción.          
+                        </p>
+                </article>
+            </section>
+
+            <section class="ventajas mt-6">
+                <article>
+                    <h3 class="uppercase text-2xl font-bold text-blueGray-700">El estándar IEEE LOM</h3>
+                    <p class="text-lg text-justify mt-3">
+                        IEEE LOM describe un esquema de datos conceptual que define la estructura de los
+                        metadatos para los objetos de aprendizaje. Su propósito es facilitar la búsqueda, evaluación,
+                        adquisición y uso de objetos de aprendizaje por parte de los estudiantes, instructores o
+                        sistemas automatizados, así como el intercambio de los mismos y su uso compartido,
+                        permitiendo así el desarrollo de catálogos e inventarios.
+                        <br><br>
+                        IEEE LOM establece un esquema dividido en 9 categorías de elementos de metadatos,
+                        describiendo cada una de ellas un aspecto sobre el que reseñar información del objeto de
+                        aprendizaje. Un resumen esquematizado de su estructura se muestra en la figura que aparece
+                        a la derecha de este texto.
+                        <picture class="flex justify-center py-6">
+                            <img src="../../../assets/img/subtema35_2.png" alt="lom" width="500" height="800">
+                        </picture>
+                        El esquema base de LOM está formado por nueve categorías, cada una de las cuales incluye
+varios elementos o subcategorías de metadatos que permiten “etiquetar” los objetos de
+aprendizaje con un gran nivel de detalle:
+                    </p>
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>- General, agrupa información general que describe el objeto de aprendizaje como un
+                            todo. </li>
+                        <li class="mt-3">- Ciclo de vida incluye características relacionadas con la historia y estado actuales del
+                            objeto de aprendizaje, y todo aquello que le haya afectado durante su evolución.
+                        </li>
+                        <li class="mt-3">- TMeta-Metadatos permite incluir información sobre la propia instancia de metadatos
+                            (en lugar de sobre el propio objeto de aprendizaje).
+                        </li>
+                        <li class="mt-3">- Requisitos técnicos agrupa información sobre requisitos y características técnicas del
+                            objeto de aprendizaje.
+                        </li>
+                        <li class="mt-3">- Características pedagógicas incluye información sobre las características pedagógicas
+                            y educativas del objeto de aprendizaje.
+                        </li>
+                        <li class="mt-3">- Derechos de uso agrupa información sobre propiedad intelectual y condiciones de uso
+                            para el objeto de aprendizaje.
+                        </li>
+                        <li class="mt-3">- Relaciones agrupa características que describen las relaciones entre este objeto de
+                            aprendizaje y otros objetos relacionados.
+                        </li>
+                        <li class="mt-3">- Anotaciones proporciona comentarios sobre el uso pedagógico del objeto de
+                            aprendizaje y aporta información sobre cuándo y quién creó dichos comentarios.
+                        </li>
+                        <li class="mt-3">- Clasificación describe el objeto de aprendizaje de acuerdo con un determinado
+                            sistema de clasificación.
+                        </li>
+                    </ol>
+                </article>
+            </section>
+
+            <div class="flex justify-center my-6 p-4">
+                <iframe width="700" height="380" src="https://www.youtube.com/embed/fGCSRQ3gkh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">ESTANDAR IEEE LOM</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Amplie sus conocimientos en el estandar IEEE LOM dando clic en "VER MÁS".
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ieeexplore.ieee.org/document/9262118" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad35">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Relacionar columnas.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad35.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/34' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 3.4
+          </button>
+          <button routerLink='/estudiante/tema/3' fragment="evaluacion3" nz-button nzType="primary" nzDanger>
+            Evaluación 3
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+
+<!-- TEMA 4. -->
+
+<!-- SUBTEMA 4.1. FASE I -->
+<div *ngIf="id == 41">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4.1. Fase de Análisis Y
+                Obtención
+            </h2>
+
+            <section class="introduccion mt-6">
+                <article>
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema4_1.png" alt="fase 1" width="300" height="350">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Identificar el tema donde se centra el objeto virtual de aprendizaje, es fundamental antes de iniciar con el desarrollo del OVA, siendo necesario identificar el tema en específico que se va explicar en el OVA, es recomendable que sea un tema que se pueda explicar en una sesión de clase.
+                        <br><br>
+                        A continuación se muestran los requerimientos necesarios para un buen desarrollo de OVA:         
+                        </p>
+                        <ol class="mt-3 px-8 text-lg text-justify">
+                            <li>- Tema </li>
+                            <li class="mt-3">- Objetivos específicos
+                            </li>
+                            <li class="mt-3">- Objetivo general
+                            <li class="mt-3">- Tiempo estimado
+                            </li>
+                            <li class="mt-3">- Necesidad a satisfacer
+                            </li>
+                            <li class="mt-3">- Contenido educativo al que se va a aplicar
+                            </li>
+                            <li class="mt-3">- Público objetivo
+                            </li>
+                            <li class="mt-3">- Requerimientos no funcionales
+                        </ol>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Tema</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Es la identificación del tema que va a abordar el OVA, siendo fundamental tener en cuenta que será el foco central del contenido del OVA.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://revistas.unisimon.edu.co/index.php/educacion/article/view/2347/2239" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Objetivo general</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Describir los objetivos de enseñanza que plantea el docente con el OVA, como medio o como acción para alcanzar el aprendizaje del tema.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=KOGxr5dWz00&ab_channel=lUISJAIMES" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateOne">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Objetivos específicos</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Son aquellas metas concretas y medibles que se espera alcancen los estudiantes mediante el OVA en un transcurso del curso.
+                      </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                      <a href="https://rieoei.org/historico/deloslectores/2884Castillo.pdf" target="_blank" class="p-2"
+                      nz-button nzType="primary" nzSize="large" class="flex items-center">
+                          VER MÁS
+                          <span nz-icon nzType="smile"></span>
+                      </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateOne>
+                  <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+                </ng-template>
+              </div>
+        </div>
+
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Necesidad a satisfacer</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Se debe identificar el propósito detalladamente como un objetivo, debe formar parte de lo desea el docente con este OVA.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://educacioneningenieria.org/index.php/edi/article/view/602/291" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Tiempo estimado</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Tiempo en minutos estimado en que el estudiante esta interactuando con el OVA. Es recomendable no superar el tiempo de una clase normal.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=OJmmvpxKhN8&ab_channel=1MinutoparaInnovar" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateOne">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Publico objetivo</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Conjunto de personas con características en común que puedan dar uso al OVA.
+                      </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                      <a href="https://geox.udistrital.edu.co/index.php/vinculos/article/view/15537/15256" target="_blank" class="p-2"
+                      nz-button nzType="primary" nzSize="large" class="flex items-center">
+                          VER MÁS
+                          <span nz-icon nzType="smile"></span>
+                      </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateOne>
+                  <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+                </ng-template>
+              </div>
+        </div>
+
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+              <nz-card [nzCover]="templateOne">
+                <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                    <h2 class="card__title">Contenido educativo</h2>
+                </div>
+                <div class="card__body text-base text-justify font-normal p-2">
+                    <p class="card__content">
+                        Identificar los elementos y factores que favorecen el proceso enseñanza aprendizaje de OVA.
+                    </p>
+                </div>
+                <div class="card__footer flex justify-center mt-3">
+                    <a href="https://journalusco.edu.co/index.php/entornos/article/view/528/999" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" class="flex items-center">
+                        VER MÁS
+                        <span nz-icon nzType="smile"></span>
+                    </a>
+                </div>
+              </nz-card>
+              <ng-template #templateOne>
+                <img alt="sitioweb" src="../../../assets/img/adicional_web.png" class="card__img">
+              </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Requerimientos no funcionales</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Identificar requisitos técnicos a tener en cuenta para el desarrollo del OVA. En estos requerimientos se debe tener en cuenta seguridad, usabilidad, portabilidad, adaptabilidad y escalabilidad.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=Lv7XbZtnQ6A" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad41">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Relacionar columnas.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad41_1.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/tema/4' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Tema 4
+          </button>
+          <button routerLink='/estudiante/subtema/42' nz-button nzType="primary" nzDanger>
+            Subtema 4.2
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 4.2. FASE II -->
+<div *ngIf="id == 42">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4.2. Fase de Diseño
+            </h2>
+
+            <section class="mapanavegacion mt-6">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Mapa de navegacion
+                    </h2>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema42_1.png" alt="fase 1" width="600" height="600">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Es el tratamiento comunicacional de los contenidos, en otras palabras es la organización de la presentación de la información expresada en un diagrama denominado mapa de navegación. La importancia de elaborar un mapa de navegación del OVA radica en la comprensión del orden de presentación de las pantallas con los contenidos y la flexibilidad de moverse entre ellas.
+      
+                        </p>
+                </article>
+            </section>
+
+            <section class="guionaprendizaje mt-6">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Guion de aprendizaje
+                    </h2>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema42_2.png" alt="fase 1" width="600" height="600">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        El alistamiento y organización de la información del OVA son necesarios, para esto
+                        desarrollamos un guion de aprendizaje, donde se diligencia una tabla para registrar contenidos, actividades y
+                        material necesario para el desarrollo del OVA. 
+
+                        </p>
+                </article>
+            </section>
+
+            <section class="guionaprendizaje mt-6">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Tabla de evaluaciones
+                    </h2>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema42_2.png" alt="fase 1" width="600" height="600">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Las evaluaciones son tan importantes como el contenido del OVA, por eso es necesario
+realizar la planeación de las mismas para cumplir con los requerimientos básicos del objetivo del aprendizaje del
+OVA, para esto en necesario realizar una tabla que nos ayudara a diseñar una buena actividad y cumplir con los
+objetivos. En la siguiente tabla se muestra un ejemplo de esta actividad.
+                        </p>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad42">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Selección multiple.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad42.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/41' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 4.1
+          </button>
+          <button routerLink='/estudiante/subtema/43' nz-button nzType="primary" nzDanger>
+            Subtema 4.3
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 4.3. FASE III -->
+<div *ngIf="id == 43">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4.3. Fase de
+                Construcción o de Diseño
+            </h2>
+
+            <section class="introduccion mt-2">
+                <article>
+                    <picture class="flex justify-center">
+                        <img src="../../../assets/img/subtema43_1.png" alt="fase 3" width="400" height="400">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Para el desarrollo del objeto virtual es necesario tener conocimiento de algunas herramientas informáticas, que ayudaran a desarrollar un buen producto final.
+                    </p>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>- Herramienta de diseño de contenido </li>
+                        <li class="mt-3">- Herramienta de diseño de actividades
+                        </li>
+                        <li class="mt-3">- Seguimiento de requerimientos
+                    </ol>
+                </article>
+            </section>
+
+            <section class="diseñocontenido mt-6">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Herramientas de diseño de contenido
+                    </h2>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema43_2.jpg" alt="fase 3" width="350" height="100">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        A continuación se muestran algunas herramientas para diseñar el contenido del OVA para que el contenido tenga un diseño y visualización agradable y sea acorde a la temática. Cabe resaltar que todas las herramientas mencionadas a continuación son gratuitas y son de uso libre.
+                    </p>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li><span class="font-semibold">- Genially:</span> Es una aplicación informática para docentes, que permite crear sus propios contenidos web, de un modo muy sencillo, sin tener conocimientos técnicos de diseño o programación web. Con Ardora se pueden crear más de 45 tipos distintos de actividades, crucigramas, sopas de letras, completar, paneles gráficos, relojes, etc. </li>
+                        <li class="mt-3"><span class="font-semibold">- Canva:</span> Es una web de diseño gráfico y composición de imágenes para la comunicación fundada en 2012, y que ofrece herramientas online para crear tus propios diseños, tanto si son para ocio como si son profesionales.
+                        </li>
+                        <li class="mt-3"><span class="font-semibold">- PowToon:</span> Es otra herramienta online que sirve para crear contenido interactivo. En este caso se pueden crear presentaciones de una forma rápida y sencilla incluyendo animaciones, imágenes, texto y otros materiales.
+                    </ol>
+                </article>
+            </section>
+
+            <section class="diseñoactividades mt-8">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Herramientas de diseño de actividades
+                    </h2>
+
+                    <p class="text-lg text-justify mt-3">
+                        A continuación se muestran las diferentes herramientas de diseño para la creación de actividades para que el estudiante desarrolle en la OVA con el fin de tener una mejor comprensión de los temas y subtemas. Cabe resaltar que todas las herramientas mencionadas a continuación son gratuitas y son de uso libre.
+                    </p>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema43_3.png" alt="fase 3" width="350" height="100">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Ejemplos de herramientas:
+                    </p>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li><span class="font-semibold">- Adora:</span> Es una aplicación informática para docentes, que permite crear sus propios contenidos web, de un modo muy sencillo, sin tener conocimientos técnicos de diseño o programación web. Con Ardora se pueden crear más de 45 tipos distintos de actividades, crucigramas, sopas de letras, completar, paneles gráficos, relojes, etc. </li>
+                        <li class="mt-3"><span class="font-semibold">- Hot Potatoes:</span> Es un sistema para crear ejercicios educativos que se pueden realizar posteriormente a través de la web. Los ejercicios que crea son del tipo respuesta corta, selección múltiple, rellenar los espacios, crucigramas, emparejamiento y variados.
+                        </li>
+                        <li class="mt-3"><span class="font-semibold">- eXeLearning:</span>  Es un programa de creación de actividades educativas de código abierto de sencillo manejo y que incorpora una gran cantidad de herramientas. Es uno de los programas más usados para la creación de recursos didácticos y presenta una ventaja muy importante en su uso, ya que no es necesario tener conocimientos de programación.
+                    </ol>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Herramienta de diseño de contenido</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        En la actualidad hay varias herramientas de autor, una de las más conocidas y de fácil uso es Exe Learning. Esta herramienta está basada en la licencia permisiva de BSD que ayuda al docente a tener libertad en su uso sin restricciones.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=go_bkvyZb8I&t=166s" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">Herramienta de diseño de actividades</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Las herramientas de desarrollo de contenido o de autor, tienen la posibilidad de agregarles actividades de evaluación, pero se limitan con herramientas que no despierta el interés del estudiante, de acuerdo con esto se recomienda vincular herramientas de diseño de material educativo orientadas a la web como Ardora.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=FO1XHkhtDrs" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad43">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Crucigrama.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad43.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/42' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 4.2
+          </button>
+          <button routerLink='/estudiante/subtema/44' nz-button nzType="primary" nzDanger>
+            Subtema 4.4
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 4.4. FASE IV -->
+<div *ngIf="id == 44">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4.4. Fase de
+                evaluacion: Calidad y pruebas
+            </h2>
+
+            <section class="ecoba mt-6">
+                <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">El formato ECOBA
+                </h2>
+                <article>
+                    <picture class="flex justify-center my-4">
+                        <img src="../../../assets/img/subtema44_1.png" alt="fase 4" width="600" height="600">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        ECOBA significa Evaluación de Calidad en los Objetos de Aprendizaje. Este instrumento fue desarrollado por Ruiz González en el 2007. Se trata de un sistema de evaluación que permite cotejar el nivel alcanzado por un objeto dentro de una escala, a través de la pertinencia de los contenidos, el diseño estético, funcional e instruccional de los objetos, y el aseguramiento de competencias a través de actividades de evaluación y retroalimentación.
+                    </p>
+                </article>
+            </section>
+
+            <section class="diseñocontenido mt-6">
+                <article>
+
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Métricas de calidad
+                    </h2>
+
+                    <picture class="flex justify-center my-6">
+                        <img src="../../../assets/img/subtema44_2.png" alt="fase 4" width="250" height="100">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        Con este modelo de evaluación, tanto el autor del objeto de aprendizaje como los usuarios y posibles revisores externos pueden valorar los recursos educativos digitales.
+                        <br><br>
+                    </p>
+
+                    <h2 class="uppercase text-2xl font-bold text-blueGray-700">Carácter didactico
+                    </h2>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>-  Objetivos y coherencia didáctica</li>
+                        <li class="mt-2">- Calidad de los contenidos</li>
+                        <li class="mt-2">- Capacidad de generar reflexión, crítica e innovación</li>
+                        <li class="mt-2">- Interactividad y adaptabilidad</li>
+                        <li class="mt-2">- Motivación</li>
+                    </ol>
+
+                    <h2 class="uppercase text-2xl font-bold text-blueGray-700 mt-6">Carácter Tecnológico
+                    </h2>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>-  Objetivos y coherencia didáctica</li>
+                        <li class="mt-2">- Formato y Diseño</li>
+                        <li class="mt-2">- Usabilidad, Accesibilidad, Reusabilidad, Interoperabilidad</li>
+                    </ol>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">Información complementaria</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">FORMATO ECOBA</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Amplie la información acerca del formato ECOBA viendo el video dando clic en "VER MÁS".
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=n3ZxpphMMuk" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad44">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Crucigrama.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad44.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/43' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 4.3
+          </button>
+          <button routerLink='/estudiante/subtema/45' nz-button nzType="primary" nzDanger>
+            Subtema 4.5
+            <span nz-icon nzType="right"></span>
+          </button>
+    </div>
+</div>
+
+<!-- SUBTEMA 4.4. FASE V -->
+<div *ngIf="id == 45">
+    <!--CONTENIDOS -->
+    <section nz-row class="px-8 mt-4">
+        <article nz-col nzSpan="24">
+            <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">4.4. Fase de
+                Implantación o Publicación
+            </h2>
+
+            <section class="bancoobjeto mt-6">
+                <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Banco de objetos
+                </h2>
+                <article>
+                    <picture class="flex justify-center my-4">
+                        <img src="../../../assets/img/subtema45_1.png" alt="fase 5" width="300" height="300">
+                    </picture>
+
+                    <p class="text-lg text-justify">
+                        El Banco de Objetos Virtuales de Aprendizaje es el repositorio de archivos digitales donde están almacenados, organizados y clasificados los siguientes tipos de recursos:
+                    </p>
+
+                    <ol class="mt-3 px-8 text-lg text-justify">
+                        <li>-  Presentaciones multimedia</li>
+                        <li class="mt-2">- Simulaciones</li>
+                        <li class="mt-2">- Tutoriales</li>
+                    </ol>
+
+                    <p class="mt-3 text-lg text-justify">
+                        Es un proceso bastante escencial para el desarrollo y actualización de los objetos virtuales de aprendizaje , ya que al estar alojados en un repositorio en la web pueden servir como ejemplo para nuevas versiones de contenido educativo.
+                    </p>
+                </article>
+
+                <article class="mt-8">
+                    <h2 class="text-center uppercase text-2xl font-bold text-blueGray-700">Proyecto Nacional de banco de objetos de aprendizaje</h2>
+
+                    <div class="flex justify-center p-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fpd5iq1AXEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="mt-3 text-lg text-justify">
+                        Banco de Objetos Virtuales de Aprendizaje, un proyecto que impulsa herramientas virtuales para facilitar los procesos de enseñanza aprendizaje de niños y niñas de segundo a quinto grado de básica primaria. www.ensdbexcelencia.edu.co
+                    </p>
+                </article>
+            </section>
+
+        </article>
+    </section>
+
+    <!-- 2 O 3 CARDS INFORMÁCION ADICIONAL -->
+    <section class="cards mt-8">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">EJEMPLO PRACTICO PUBLICACION OVA</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24" class="mt-4">
+                <nz-card [nzCover]="templateTwo">
+                  <div class="card__header text-lg text-center font-bold uppercase bg-blueGray-200 flex items-center justify-center">
+                      <h2 class="card__title">FORMATO ECOBA</h2>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <p class="card__content">
+                        Clic en "VER VIDEO", lo redireccionará a un ejemplo práctivo en donde se puede evidenciar la publicación de un objeto virtual de aprendizaje creado en la herramientas de Exe-Learning, usando los recursos de Google Drive.
+                    </p>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://www.youtube.com/watch?v=2VyTVhvpGfo" target="_blank" class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        VER VIDEO
+                        <span nz-icon nzType="youtube"></span>
+                    </a>
+                  </div>
+                </nz-card>
+                <ng-template #templateTwo>
+                  <img alt="video" src="../../../assets/img/adicional_video.png" class="card__img"/>
+                </ng-template>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CARD INICIO ACTIVIDAD RETROALIMENTACIÓN-->
+    <section class="cards mt-8" id="actividad45">
+        <h2 class="uppercase text-center text-2xl font-bold text-blueGray-700 mb-6">ACTIVIDAD DE RETROALIMENTACIÓN</h2>
+        <div nz-row [nzGutter]="16" class="flex justify-center">
+            <div nz-col nzXXl="6" nzXl="8" nzLg="12" nzMd="24" nzSm="24" nzXs="24">
+                <nz-card>
+                  <div class="card__header text-lg text-center font-bold uppercase bg-red-200 flex items-center justify-center">
+                      <h2 class="card__title p-2">Actividad</h2>
+                      <span nz-icon nzType="check-circle" nzTheme="outline"></span>
+                  </div>
+                  <div class="card__body text-base text-justify font-normal p-2">
+                      <div class="card__content">
+                        <ul class="text-lg text-justify mt-2">
+                            <li class="flex items-center">
+                                <span nz-icon nzType="question-circle" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Tipo:</span> Selección multiple.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="file-protect" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Calificación: </span> Sin calificación.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="field-time" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Duración: </span> Sin tiempo límite.
+                            </li>
+
+                            <li class="flex items-center">
+                                <span nz-icon nzType="undo" nzTheme="outline" class="p-1"></span>
+                                <span class="font-semibold px-1">Intentos permitidos: </span> Los que desees.
+                            </li>
+
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="card__footer flex justify-center mt-3">
+                    <a href="https://ova-actividades-frontend.vercel.app/actividades/actividad45.htm"
+                    class="p-2"
+                    nz-button nzType="primary" nzSize="large" nzDanger class="flex items-center">
+                        INICIAR
+                        <span nz-icon nzType="star"></span>
+                    </a>
+                  </div>
+                </nz-card>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Navegación entre temas -->
+    <div class="nav__topics p-6 bg-blueGray-200 mt-12 my-4 flex justify-between">
+        <button routerLink='/estudiante/subtema/44' nz-button nzType="primary" nzDanger>
+            <span nz-icon nzType="left"></span>
+            Subtema 4.4
+          </button>
+          <button routerLink='/estudiante/tema/4' fragment="evaluacion4" nz-button nzType="primary" nzDanger>
+            Evaluación 4
             <span nz-icon nzType="right"></span>
           </button>
     </div>
