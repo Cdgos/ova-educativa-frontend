@@ -583,19 +583,19 @@
                         "explanation": ""
                     },
                     {
-                        "questionText": "Características principales de las herramientas de autor para OVAs.",
+                        "questionText": "Son principios bases para el software educativo.",
                         "options": [{
-                                "text": "Desplegables, automatizados, complejos.",
+                                "text": "Conductismo, cognitivismo, constructivismo."
+                            },
+                            {
+                                "text": "Instruir, educar, formar."
+                            },
+                            {
+                                "text": "Mantenibilidad, usabilidad, operabilidad"
+                            },
+                            {
+                                "text": "Análisis, diseño, producción",
                                 "correct": true
-                            },
-                            {
-                                "text": "Contenidos, actividades de aprendizaje y elementos de contextualización."
-                            },
-                            {
-                                "text": "Procesadores de contenido multimedia, edición de contenido, animación y programación."
-                            },
-                            {
-                                "text": "Ninguna de las anteriores."
                             }
                         ],
                         "explanation": ""
@@ -743,43 +743,8 @@
                             }
                         ],
                         "explanation": ""
-                    },
-                    {
-                        "questionText": "Este tipo de software está diseñado para que:",
-                        "options": [{
-                                "text": "la interacción con su plataforma sea lo más sencilla posible.",
-                                "correct": true
-                            },
-                            {
-                                "text": "el usuario se mantenga entretenido."
-                            },
-                            {
-                                "text": "la interacción con el usuario sera nula"
-                            },
-                            {
-                                "text": "el usuario reflexione sobre los temas tratados."
-                            }
-                        ],
-                        "explanation": ""
-                    },
-                    {
-                        "questionText": "Ventajas de tener un Software Educativo",
-                        "options": [{
-                                "text": "Mejora la comunicación con las partes involucradas,Ahorra tiempo,Agiliza los procesos administrativos",
-                                "correct": true
-                            },
-                            {
-                                "text": "Facilidad de aprendiazaje, motivación de aprendizaje."
-                            },
-                            {
-                                "text": "Mayores ganancias economicas, reusabilidad."
-                            },
-                            {
-                                "text": "Mejora de los procesos de aprendizaje de los docentes."
-                            }
-                        ],
-                        "explanation": ""
                     }
+                 
             ]
         },
         {
@@ -804,24 +769,6 @@
                             }
                         ],
                         "explanation": ""
-                    },
-                    {
-                        "questionText": "Son características esenciales de los programas educativos",
-                        "options": [{
-                                "text": "Son interactivos, utilizan el ordenador, son fáciles de usar.",
-                                "correct": true
-                            },
-                            {
-                                "text": "Desplegables, automatizados, complejos."
-                            },
-                            {
-                                "text": "Ayudar al docente."
-                            },
-                            {
-                                "text": "Todas las anteriores"
-                            }
-                        ],
-                        "explanation": "enum is not used as a type in TypeScript"
                     },
                     {
                         "questionText": "Son módulos de la estructura básica de los programas educativos.",
@@ -945,25 +892,8 @@
                             }
                         ],
                         "explanation": ""
-                    },
-                    {
-                        "questionText": "Son ítems de la planificación didáctica",
-                        "options": [{
-                                "text": "Creación, conductismo, enseñanza"
-                            },
-                            {
-                                "text": "Organización, comunicación"
-                            },
-                            {
-                                "text": "Inserción en el currículo, objetivos perseguidos, audiencia, contenidos.",
-                                "correct": true
-                            },
-                            {
-                                "text": "Presentación, evaluación, retroalimentación"
-                            }
-                        ],
-                        "explanation": ""
                     }
+                    
             ]
         }
         ]
