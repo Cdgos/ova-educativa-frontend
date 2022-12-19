@@ -1,1 +1,30 @@
-<p>calificaciones works!</p>
+<section class="bg-white-200">
+    <ng-container>
+        <h3 class="uppercase font-bold text-3xl text-center text-blueGray-800 mt-2 mb-8">
+            Tus calificaciones, {{nombre}}
+        </h3>
+        <div class="flex justify-between" class="text-base text-center text-blueGray-800 mx-4 mb-12">
+            <table class="mb-8">
+                <thead class="bg-red-700 text-center">
+                    <tr class="bg-red-700 text-white">
+                        <th class="bg-red-700 text-white">Nombre actividad</th>
+                        <th class="bg-red-700 text-white">Calificación</th>
+                        <th class="bg-red-700 text-white">Estado</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr *ngFor="let nota of notas">
+                        <td>{{nota.nombreActividad}}</td>
+                        <td *ngIf="approved(nota.calificacion)">{{nota.calificacion}} <img src="https://cdn3d.iconscout.com/3d/premium/thumb/approve-round-button-6405277-5529298.png" style="display: inline;" width="30px" height="30px" alt="" srcset=""></td>
+
+                        <td *ngIf="approved(nota.calificacion)==false">{{nota.calificacion}} <img src="https://cdn3d.iconscout.com/3d/premium/thumb/reject-round-button-6405275-5529296.png" style="display: inline;" width="30px" height="30px" alt="" srcset=""></td>
+                        <td *ngIf="nota.estadoActividad ==2">NO PRESENTADO <img src="https://cdn3d.iconscout.com/3d/premium/thumb/warning-sign-5214897-4357559.png" width="30px" height="30px" alt="" srcset="" style="display: inline;"> </td>
+                        <td *ngIf="nota.estadoActividad ==1">PRESENTADO <img src="https://cdn3d.iconscout.com/3d/premium/thumb/checkmark-6403866-5307800.png"width="30px" height="30px" style="display: inline" alt="" srcset=""> </td>
+
+                    </tr>
+                </tbody>
+              </table>
+        </div>
+    </ng-container>
+</section>
+

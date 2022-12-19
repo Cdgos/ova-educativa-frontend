@@ -25,7 +25,6 @@ export class LoginComponent implements OnInit {
 
   logear(){
 
-    console.log(this.usuarioForm);
 
     if((this.usuarioForm.status == "VALID")){
       let user = {

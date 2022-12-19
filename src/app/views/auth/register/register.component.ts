@@ -35,7 +35,6 @@ export class RegisterComponent implements OnInit {
           clave: this.newUsuarioForm.get('password')?.value
         }
     
-        console.log(user)
     
         this.registroService.registrar(user).subscribe(data => {
           

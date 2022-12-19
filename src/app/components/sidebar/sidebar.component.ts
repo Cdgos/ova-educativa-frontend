@@ -18,7 +18,6 @@ export class SidebarComponent implements OnInit {
     this.route.fragment.subscribe(fragment => { 
       this.fragment = fragment!; 
       this.route.params.subscribe(newParams => {
-        console.log(this.fragment);
         document.querySelector('#' + this.fragment)?.scrollIntoView();
   });
     });

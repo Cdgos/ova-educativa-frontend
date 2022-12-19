@@ -32,6 +32,8 @@ export class QuestionComponent implements OnInit {
   isAnswerCompleted : boolean = false;
   id:string
   theme:string=""
+  user:any = JSON.parse(window.localStorage.getItem("usuario")!)
+
   constructor(private questionService: QuestionService,private aRouter: ActivatedRoute) {
 
     this.id = aRouter.snapshot.paramMap.get('idTema')!;
@@ -46,7 +48,6 @@ export class QuestionComponent implements OnInit {
   getAllQuestions() {
     this.questionService.getQuestionJson()
       .subscribe(res => {
-        console.log(this.id);
         this.questionList = res.themes[Number(this.id)-1].questions;
         this.theme = res.themes[Number(this.id)-1].theme;
       })
@@ -74,8 +75,15 @@ export class QuestionComponent implements OnInit {
   answer(currentQno: number, option: any) {
 
     if(currentQno === this.questionList.length){
-      this.isQuizCompleted = true;
+      this.isQuizCompleted=true
+      let nota = {
+        "codigo":this.user.codigo,
+        "idActividad":Number(this.id),
+        "calificacion":this.points
+      }
       this.stopCounter();
+      this.questionService.updateQuestion(nota).subscribe(resp=>{
+      })
     }
 
     if (option.correct ) {
